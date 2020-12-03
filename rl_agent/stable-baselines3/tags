@@ -1,0 +1,1016 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-select	Makefile	/^	flake8 ${LINT_PATHS} --count --select=E9,F63,F7,F82 --show-source --statistics$/;"	m
+A2C	stable_baselines3/a2c/a2c.py	/^class A2C(OnPolicyAlgorithm):$/;"	c
+ActionDictTestEnv	tests/test_env_checker.py	/^class ActionDictTestEnv(gym.Env):$/;"	c
+ActionNoise	stable_baselines3/common/noise.py	/^class ActionNoise(ABC):$/;"	c
+Actor	stable_baselines3/sac/policies.py	/^class Actor(BasePolicy):$/;"	c
+Actor	stable_baselines3/td3/policies.py	/^class Actor(BasePolicy):$/;"	c
+ActorCriticCnnPolicy	stable_baselines3/common/policies.py	/^class ActorCriticCnnPolicy(ActorCriticPolicy):$/;"	c
+ActorCriticPolicy	stable_baselines3/common/policies.py	/^class ActorCriticPolicy(BasePolicy):$/;"	c
+AtariWrapper	stable_baselines3/common/atari_wrappers.py	/^class AtariWrapper(gym.Wrapper):$/;"	c
+BUILDDIR	docs/Makefile	/^BUILDDIR      = _build$/;"	m
+BUILDDIR	docs/make.bat	/^set BUILDDIR=_build$/;"	v
+BaseAlgorithm	stable_baselines3/common/base_class.py	/^class BaseAlgorithm(ABC):$/;"	c
+BaseBuffer	stable_baselines3/common/buffers.py	/^class BaseBuffer(ABC):$/;"	c
+BaseCallback	stable_baselines3/common/callbacks.py	/^class BaseCallback(ABC):$/;"	c
+BaseFeaturesExtractor	stable_baselines3/common/torch_layers.py	/^class BaseFeaturesExtractor(nn.Module):$/;"	c
+BaseModel	stable_baselines3/common/policies.py	/^class BaseModel(nn.Module, ABC):$/;"	c
+BasePolicy	stable_baselines3/common/policies.py	/^class BasePolicy(BaseModel):$/;"	c
+BernoulliDistribution	stable_baselines3/common/distributions.py	/^class BernoulliDistribution(Distribution):$/;"	c
+BitFlippingEnv	stable_baselines3/common/bit_flipping_env.py	/^class BitFlippingEnv(GoalEnv):$/;"	c
+CSVOutputFormat	stable_baselines3/common/logger.py	/^class CSVOutputFormat(KVWriter):$/;"	c
+CURRENT	stable_baselines3/common/logger.py	/^    CURRENT = None  # Current logger being used by the free functions above$/;"	v	class:Logger
+CallbackList	stable_baselines3/common/callbacks.py	/^class CallbackList(BaseCallback):$/;"	c
+CategoricalDistribution	stable_baselines3/common/distributions.py	/^class CategoricalDistribution(Distribution):$/;"	c
+CheckpointCallback	stable_baselines3/common/callbacks.py	/^class CheckpointCallback(BaseCallback):$/;"	c
+ClipRewardEnv	stable_baselines3/common/atari_wrappers.py	/^class ClipRewardEnv(gym.RewardWrapper):$/;"	c
+CloudpickleWrapper	stable_baselines3/common/vec_env/base_vec_env.py	/^class CloudpickleWrapper:$/;"	c
+CnnPolicy	stable_baselines3/a2c/policies.py	/^CnnPolicy = ActorCriticCnnPolicy$/;"	v
+CnnPolicy	stable_baselines3/dqn/policies.py	/^class CnnPolicy(DQNPolicy):$/;"	c
+CnnPolicy	stable_baselines3/ppo/policies.py	/^CnnPolicy = ActorCriticCnnPolicy$/;"	v
+CnnPolicy	stable_baselines3/sac/policies.py	/^class CnnPolicy(SACPolicy):$/;"	c
+CnnPolicy	stable_baselines3/td3/policies.py	/^class CnnPolicy(TD3Policy):$/;"	c
+ContinuousCritic	stable_baselines3/common/policies.py	/^class ContinuousCritic(BaseModel):$/;"	c
+ConvertCallback	stable_baselines3/common/callbacks.py	/^class ConvertCallback(BaseCallback):$/;"	c
+CustomGymEnv	tests/test_vec_envs.py	/^class CustomGymEnv(gym.Env):$/;"	c
+CustomWrapperA	tests/test_vec_envs.py	/^class CustomWrapperA(VecNormalize):$/;"	c
+CustomWrapperB	tests/test_vec_envs.py	/^class CustomWrapperB(VecNormalize):$/;"	c
+CustomWrapperBB	tests/test_vec_envs.py	/^class CustomWrapperBB(CustomWrapperB):$/;"	c
+DDPG	stable_baselines3/ddpg/ddpg.py	/^class DDPG(TD3):$/;"	c
+DEBUG	stable_baselines3/common/logger.py	/^DEBUG = 10$/;"	v
+DEFAULT	stable_baselines3/common/logger.py	/^    DEFAULT = None$/;"	v	class:Logger
+DIM	tests/test_identity.py	/^DIM = 4$/;"	v
+DISABLED	stable_baselines3/common/logger.py	/^DISABLED = 50$/;"	v
+DQN	stable_baselines3/dqn/dqn.py	/^class DQN(OffPolicyAlgorithm):$/;"	c
+DQNPolicy	stable_baselines3/dqn/policies.py	/^class DQNPolicy(BasePolicy):$/;"	c
+DiagGaussianDistribution	stable_baselines3/common/distributions.py	/^class DiagGaussianDistribution(Distribution):$/;"	c
+Distribution	stable_baselines3/common/distributions.py	/^class Distribution(ABC):$/;"	c
+DummyDictEnv	tests/test_vec_normalize.py	/^class DummyDictEnv(gym.GoalEnv):$/;"	c
+DummyMultiBinary	tests/test_spaces.py	/^class DummyMultiBinary(gym.Env):$/;"	c
+DummyMultiDiscreteSpace	tests/test_spaces.py	/^class DummyMultiDiscreteSpace(gym.Env):$/;"	c
+DummyVecEnv	stable_baselines3/common/vec_env/dummy_vec_env.py	/^class DummyVecEnv(VecEnv):$/;"	c
+ENV_CLASSES	tests/test_envs.py	/^ENV_CLASSES = [BitFlippingEnv, IdentityEnv, IdentityEnvBox, IdentityEnvMultiBinary, IdentityEnvMultiDiscrete, FakeImageEnv]$/;"	v
+ENV_ID	tests/test_vec_normalize.py	/^ENV_ID = "Pendulum-v0"$/;"	v
+EPISODE	stable_baselines3/her/goal_selection_strategy.py	/^    EPISODE = 2$/;"	v	class:GoalSelectionStrategy
+EPISODES_WINDOW	stable_baselines3/common/results_plotter.py	/^EPISODES_WINDOW = 100$/;"	v
+ERROR	stable_baselines3/common/logger.py	/^ERROR = 40$/;"	v
+EXT	stable_baselines3/common/monitor.py	/^    EXT = "monitor.csv"$/;"	v	class:Monitor
+EpisodicLifeEnv	stable_baselines3/common/atari_wrappers.py	/^class EpisodicLifeEnv(gym.Wrapper):$/;"	c
+EvalCallback	stable_baselines3/common/callbacks.py	/^class EvalCallback(EventCallback):$/;"	c
+EventCallback	stable_baselines3/common/callbacks.py	/^class EventCallback(BaseCallback):$/;"	c
+EveryNTimesteps	stable_baselines3/common/callbacks.py	/^class EveryNTimesteps(EventCallback):$/;"	c
+FINAL	stable_baselines3/her/goal_selection_strategy.py	/^    FINAL = 1$/;"	v	class:GoalSelectionStrategy
+FUTURE	stable_baselines3/her/goal_selection_strategy.py	/^    FUTURE = 0$/;"	v	class:GoalSelectionStrategy
+FakeImageEnv	stable_baselines3/common/identity_env.py	/^class FakeImageEnv(Env):$/;"	c
+FireResetEnv	stable_baselines3/common/atari_wrappers.py	/^class FireResetEnv(gym.Wrapper):$/;"	c
+FlattenExtractor	stable_baselines3/common/torch_layers.py	/^class FlattenExtractor(BaseFeaturesExtractor):$/;"	c
+FormatUnsupportedError	stable_baselines3/common/logger.py	/^class FormatUnsupportedError(NotImplementedError):$/;"	c
+GoalSelectionStrategy	stable_baselines3/her/goal_selection_strategy.py	/^class GoalSelectionStrategy(Enum):$/;"	c
+GymEnv	stable_baselines3/common/type_aliases.py	/^GymEnv = Union[gym.Env, VecEnv]$/;"	v
+GymObs	stable_baselines3/common/type_aliases.py	/^GymObs = Union[Tuple, Dict[str, Any], np.ndarray, int]$/;"	v
+GymStepReturn	stable_baselines3/common/type_aliases.py	/^GymStepReturn = Tuple[GymObs, float, bool, Dict]$/;"	v
+HER	stable_baselines3/her/her.py	/^class HER(BaseAlgorithm):$/;"	c
+HerReplayBuffer	stable_baselines3/her/her_replay_buffer.py	/^class HerReplayBuffer(ReplayBuffer):$/;"	c
+HumanOutputFormat	stable_baselines3/common/logger.py	/^class HumanOutputFormat(KVWriter, SeqWriter):$/;"	c
+INFO	stable_baselines3/common/logger.py	/^INFO = 20$/;"	v
+IdentityEnv	stable_baselines3/common/identity_env.py	/^class IdentityEnv(Env):$/;"	c
+IdentityEnvBox	stable_baselines3/common/identity_env.py	/^class IdentityEnvBox(IdentityEnv):$/;"	c
+IdentityEnvMultiBinary	stable_baselines3/common/identity_env.py	/^class IdentityEnvMultiBinary(IdentityEnv):$/;"	c
+IdentityEnvMultiDiscrete	stable_baselines3/common/identity_env.py	/^class IdentityEnvMultiDiscrete(IdentityEnv):$/;"	c
+JSONOutputFormat	stable_baselines3/common/logger.py	/^class JSONOutputFormat(KVWriter):$/;"	c
+KEY_EXCLUDED	tests/test_logger.py	/^KEY_EXCLUDED = {}$/;"	v
+KEY_TO_GOAL_STRATEGY	stable_baselines3/her/goal_selection_strategy.py	/^KEY_TO_GOAL_STRATEGY = {$/;"	v
+KEY_VALUES	tests/test_logger.py	/^KEY_VALUES = {$/;"	v
+KVWriter	stable_baselines3/common/logger.py	/^class KVWriter(object):$/;"	c
+LINT_PATHS	Makefile	/^LINT_PATHS=stable_baselines3\/ tests\/ docs\/conf.py setup.py$/;"	m
+LOG_STD_MAX	stable_baselines3/sac/policies.py	/^LOG_STD_MAX = 2$/;"	v
+LOG_STD_MIN	stable_baselines3/sac/policies.py	/^LOG_STD_MIN = -20$/;"	v
+LoadMonitorResultsError	stable_baselines3/common/monitor.py	/^class LoadMonitorResultsError(Exception):$/;"	c
+LogContent	tests/test_logger.py	/^class LogContent:$/;"	c
+Logger	stable_baselines3/common/logger.py	/^class Logger(object):$/;"	c
+MOCK_MODULES	docs/conf.py	/^MOCK_MODULES = []$/;"	v
+MODEL_DICT	tests/test_tensorboard.py	/^MODEL_DICT = {$/;"	v
+MODEL_LIST	tests/test_predict.py	/^MODEL_LIST = [$/;"	v
+MODEL_LIST	tests/test_save_load.py	/^MODEL_LIST = [PPO, A2C, TD3, SAC, DQN, DDPG]$/;"	v
+MaxAndSkipEnv	stable_baselines3/common/atari_wrappers.py	/^class MaxAndSkipEnv(gym.Wrapper):$/;"	c
+MaybeCallback	stable_baselines3/common/type_aliases.py	/^MaybeCallback = Union[None, Callable, List[callbacks.BaseCallback], callbacks.BaseCallback]$/;"	v
+MlpExtractor	stable_baselines3/common/torch_layers.py	/^class MlpExtractor(nn.Module):$/;"	c
+MlpPolicy	stable_baselines3/a2c/policies.py	/^MlpPolicy = ActorCriticPolicy$/;"	v
+MlpPolicy	stable_baselines3/dqn/policies.py	/^MlpPolicy = DQNPolicy$/;"	v
+MlpPolicy	stable_baselines3/ppo/policies.py	/^MlpPolicy = ActorCriticPolicy$/;"	v
+MlpPolicy	stable_baselines3/sac/policies.py	/^MlpPolicy = SACPolicy$/;"	v
+MlpPolicy	stable_baselines3/td3/policies.py	/^MlpPolicy = TD3Policy$/;"	v
+Mock	docs/conf.py	/^class Mock(MagicMock):$/;"	c
+Monitor	stable_baselines3/common/monitor.py	/^class Monitor(gym.Wrapper):$/;"	c
+MultiCategoricalDistribution	stable_baselines3/common/distributions.py	/^class MultiCategoricalDistribution(Distribution):$/;"	c
+N_ACTIONS	tests/test_distributions.py	/^N_ACTIONS = 2$/;"	v
+N_ENVS	tests/test_vec_envs.py	/^N_ENVS = 3$/;"	v
+N_FEATURES	tests/test_distributions.py	/^N_FEATURES = 3$/;"	v
+N_SAMPLES	tests/test_distributions.py	/^N_SAMPLES = int(5e6)$/;"	v
+N_STEPS	tests/test_tensorboard.py	/^N_STEPS = 100$/;"	v
+N_STEPS_TRAINING	tests/test_deterministic.py	/^N_STEPS_TRAINING = 3000$/;"	v
+NanAndInfEnv	tests/test_vec_check_nan.py	/^class NanAndInfEnv(gym.Env):$/;"	c
+NatureCNN	stable_baselines3/common/torch_layers.py	/^class NatureCNN(BaseFeaturesExtractor):$/;"	c
+NoopResetEnv	stable_baselines3/common/atari_wrappers.py	/^class NoopResetEnv(gym.Wrapper):$/;"	c
+NormalActionNoise	stable_baselines3/common/noise.py	/^class NormalActionNoise(ActionNoise):$/;"	c
+ObsDictWrapper	stable_baselines3/common/vec_env/obs_dict_wrapper.py	/^class ObsDictWrapper(VecEnvWrapper):$/;"	c
+OffPolicyAlgorithm	stable_baselines3/common/off_policy_algorithm.py	/^class OffPolicyAlgorithm(BaseAlgorithm):$/;"	c
+OnPolicyAlgorithm	stable_baselines3/common/on_policy_algorithm.py	/^class OnPolicyAlgorithm(BaseAlgorithm):$/;"	c
+OptimizerStateDict	stable_baselines3/common/type_aliases.py	/^OptimizerStateDict = Dict[str, Any]$/;"	v
+OrnsteinUhlenbeckActionNoise	stable_baselines3/common/noise.py	/^class OrnsteinUhlenbeckActionNoise(ActionNoise):$/;"	c
+POSSIBLE_X_AXES	stable_baselines3/common/results_plotter.py	/^POSSIBLE_X_AXES = [X_TIMESTEPS, X_EPISODES, X_WALLTIME]$/;"	v
+PPO	stable_baselines3/ppo/ppo.py	/^class PPO(OnPolicyAlgorithm):$/;"	c
+QNetwork	stable_baselines3/dqn/policies.py	/^class QNetwork(BasePolicy):$/;"	c
+RMSpropTFLike	stable_baselines3/common/sb2_compat/rmsprop_tf_like.py	/^class RMSpropTFLike(Optimizer):$/;"	c
+ReplayBuffer	stable_baselines3/common/buffers.py	/^class ReplayBuffer(BaseBuffer):$/;"	c
+ReplayBufferSamples	stable_baselines3/common/type_aliases.py	/^class ReplayBufferSamples(NamedTuple):$/;"	c
+RolloutBuffer	stable_baselines3/common/buffers.py	/^class RolloutBuffer(BaseBuffer):$/;"	c
+RolloutBufferSamples	stable_baselines3/common/type_aliases.py	/^class RolloutBufferSamples(NamedTuple):$/;"	c
+RolloutReturn	stable_baselines3/common/type_aliases.py	/^class RolloutReturn(NamedTuple):$/;"	c
+RunningMeanStd	stable_baselines3/common/running_mean_std.py	/^class RunningMeanStd(object):$/;"	c
+SAC	stable_baselines3/sac/sac.py	/^class SAC(OffPolicyAlgorithm):$/;"	c
+SACPolicy	stable_baselines3/sac/policies.py	/^class SACPolicy(BasePolicy):$/;"	c
+SEED	tests/test_deterministic.py	/^SEED = 0$/;"	v
+SHELL	Makefile	/^SHELL=\/bin\/bash$/;"	m
+SOURCEDIR	docs/Makefile	/^SOURCEDIR     = .$/;"	m
+SOURCEDIR	docs/make.bat	/^set SOURCEDIR=.$/;"	v
+SPACES	tests/test_vec_envs.py	/^SPACES = collections.OrderedDict($/;"	v
+SPHINXBUILD	docs/Makefile	/^SPHINXBUILD   = sphinx-build$/;"	m
+SPHINXBUILD	docs/make.bat	/^	set SPHINXBUILD=sphinx-build$/;"	v
+SPHINXOPTS	docs/Makefile	/^SPHINXOPTS    = -W  # make warnings fatal$/;"	m
+SPHINXPROJ	docs/Makefile	/^SPHINXPROJ    = StableBaselines$/;"	m
+SPHINXPROJ	docs/make.bat	/^set SPHINXPROJ=StableBaselines$/;"	v
+ScopedConfigure	stable_baselines3/common/logger.py	/^class ScopedConfigure(object):$/;"	c
+SeqWriter	stable_baselines3/common/logger.py	/^class SeqWriter(object):$/;"	c
+SquashedDiagGaussianDistribution	stable_baselines3/common/distributions.py	/^class SquashedDiagGaussianDistribution(DiagGaussianDistribution):$/;"	c
+StateDependentNoiseDistribution	stable_baselines3/common/distributions.py	/^class StateDependentNoiseDistribution(Distribution):$/;"	c
+StepEnv	tests/test_vec_envs.py	/^class StepEnv(gym.Env):$/;"	c
+StopTrainingOnMaxEpisodes	stable_baselines3/common/callbacks.py	/^class StopTrainingOnMaxEpisodes(BaseCallback):$/;"	c
+StopTrainingOnRewardThreshold	stable_baselines3/common/callbacks.py	/^class StopTrainingOnRewardThreshold(BaseCallback):$/;"	c
+SubprocVecEnv	stable_baselines3/common/vec_env/subproc_vec_env.py	/^class SubprocVecEnv(VecEnv):$/;"	c
+SummaryWriter	stable_baselines3/common/logger.py	/^    SummaryWriter = None$/;"	v
+SummaryWriter	stable_baselines3/common/utils.py	/^    SummaryWriter = None$/;"	v
+TD3	stable_baselines3/td3/td3.py	/^class TD3(OffPolicyAlgorithm):$/;"	c
+TD3Policy	stable_baselines3/td3/policies.py	/^class TD3Policy(BasePolicy):$/;"	c
+TanhBijector	stable_baselines3/common/distributions.py	/^class TanhBijector(object):$/;"	c
+TensorBoardOutputFormat	stable_baselines3/common/logger.py	/^class TensorBoardOutputFormat(KVWriter):$/;"	c
+TensorDict	stable_baselines3/common/type_aliases.py	/^TensorDict = Dict[str, th.Tensor]$/;"	v
+VEC_ENV_CLASSES	tests/test_vec_envs.py	/^VEC_ENV_CLASSES = [DummyVecEnv, SubprocVecEnv]$/;"	v
+VEC_ENV_WRAPPERS	tests/test_vec_envs.py	/^VEC_ENV_WRAPPERS = [None, VecNormalize, VecFrameStack]$/;"	v
+VecCheckNan	stable_baselines3/common/vec_env/vec_check_nan.py	/^class VecCheckNan(VecEnvWrapper):$/;"	c
+VecEnv	stable_baselines3/common/vec_env/base_vec_env.py	/^class VecEnv(ABC):$/;"	c
+VecEnvIndices	stable_baselines3/common/vec_env/base_vec_env.py	/^VecEnvIndices = Union[None, int, Iterable[int]]$/;"	v
+VecEnvObs	stable_baselines3/common/vec_env/base_vec_env.py	/^VecEnvObs = Union[np.ndarray, Dict[str, np.ndarray], Tuple[np.ndarray, ...]]$/;"	v
+VecEnvStepReturn	stable_baselines3/common/vec_env/base_vec_env.py	/^VecEnvStepReturn = Tuple[VecEnvObs, np.ndarray, np.ndarray, List[Dict]]$/;"	v
+VecEnvWrapper	stable_baselines3/common/vec_env/base_vec_env.py	/^class VecEnvWrapper(VecEnv):$/;"	c
+VecFrameStack	stable_baselines3/common/vec_env/vec_frame_stack.py	/^class VecFrameStack(VecEnvWrapper):$/;"	c
+VecNormalize	stable_baselines3/common/vec_env/vec_normalize.py	/^class VecNormalize(VecEnvWrapper):$/;"	c
+VecTransposeImage	stable_baselines3/common/vec_env/vec_transpose.py	/^class VecTransposeImage(VecEnvWrapper):$/;"	c
+VecVideoRecorder	stable_baselines3/common/vec_env/vec_video_recorder.py	/^class VecVideoRecorder(VecEnvWrapper):$/;"	c
+VectorizedActionNoise	stable_baselines3/common/noise.py	/^class VectorizedActionNoise(ActionNoise):$/;"	c
+Video	stable_baselines3/common/logger.py	/^class Video(object):$/;"	c
+WARN	stable_baselines3/common/logger.py	/^WARN = 30$/;"	v
+WarpFrame	stable_baselines3/common/atari_wrappers.py	/^class WarpFrame(gym.ObservationWrapper):$/;"	c
+X_EPISODES	stable_baselines3/common/results_plotter.py	/^X_EPISODES = "episodes"$/;"	v
+X_TIMESTEPS	stable_baselines3/common/results_plotter.py	/^X_TIMESTEPS = "timesteps"$/;"	v
+X_WALLTIME	stable_baselines3/common/results_plotter.py	/^X_WALLTIME = "walltime_hrs"$/;"	v
+_UnorderedDictSpace	tests/test_vec_envs.py	/^class _UnorderedDictSpace(gym.spaces.Dict):$/;"	c
+__all__	stable_baselines3/common/monitor.py	/^__all__ = ["Monitor", "get_monitor_files", "load_results"]$/;"	v
+__call__	stable_baselines3/common/noise.py	/^    def __call__(self) -> np.ndarray:$/;"	m	class:ActionNoise	file:
+__call__	stable_baselines3/common/noise.py	/^    def __call__(self) -> np.ndarray:$/;"	m	class:NormalActionNoise	file:
+__call__	stable_baselines3/common/noise.py	/^    def __call__(self) -> np.ndarray:$/;"	m	class:OrnsteinUhlenbeckActionNoise	file:
+__call__	stable_baselines3/common/noise.py	/^    def __call__(self) -> np.ndarray:$/;"	m	class:VectorizedActionNoise	file:
+__del__	stable_baselines3/common/vec_env/vec_video_recorder.py	/^    def __del__(self):$/;"	m	class:VecVideoRecorder	file:
+__enter__	stable_baselines3/common/logger.py	/^    def __enter__(self) -> None:$/;"	m	class:ScopedConfigure	file:
+__exit__	stable_baselines3/common/logger.py	/^    def __exit__(self, *args) -> None:$/;"	m	class:ScopedConfigure	file:
+__getattr__	docs/conf.py	/^    def __getattr__(cls, name):$/;"	m	class:Mock	file:
+__getattr__	stable_baselines3/common/vec_env/base_vec_env.py	/^    def __getattr__(self, name: str) -> Any:$/;"	m	class:VecEnvWrapper	file:
+__getattr__	stable_baselines3/her/her.py	/^    def __getattr__(self, item: str) -> Any:$/;"	m	class:HER	file:
+__getstate__	stable_baselines3/common/vec_env/base_vec_env.py	/^    def __getstate__(self) -> Any:$/;"	m	class:CloudpickleWrapper	file:
+__getstate__	stable_baselines3/common/vec_env/vec_normalize.py	/^    def __getstate__(self) -> Dict[str, Any]:$/;"	m	class:VecNormalize	file:
+__getstate__	stable_baselines3/her/her_replay_buffer.py	/^    def __getstate__(self) -> Dict[str, Any]:$/;"	m	class:HerReplayBuffer	file:
+__init__	stable_baselines3/a2c/a2c.py	/^    def __init__($/;"	m	class:A2C
+__init__	stable_baselines3/common/atari_wrappers.py	/^    def __init__($/;"	m	class:AtariWrapper
+__init__	stable_baselines3/common/atari_wrappers.py	/^    def __init__(self, env: gym.Env):$/;"	m	class:ClipRewardEnv
+__init__	stable_baselines3/common/atari_wrappers.py	/^    def __init__(self, env: gym.Env):$/;"	m	class:EpisodicLifeEnv
+__init__	stable_baselines3/common/atari_wrappers.py	/^    def __init__(self, env: gym.Env):$/;"	m	class:FireResetEnv
+__init__	stable_baselines3/common/atari_wrappers.py	/^    def __init__(self, env: gym.Env, noop_max: int = 30):$/;"	m	class:NoopResetEnv
+__init__	stable_baselines3/common/atari_wrappers.py	/^    def __init__(self, env: gym.Env, skip: int = 4):$/;"	m	class:MaxAndSkipEnv
+__init__	stable_baselines3/common/atari_wrappers.py	/^    def __init__(self, env: gym.Env, width: int = 84, height: int = 84):$/;"	m	class:WarpFrame
+__init__	stable_baselines3/common/base_class.py	/^    def __init__($/;"	m	class:BaseAlgorithm
+__init__	stable_baselines3/common/bit_flipping_env.py	/^    def __init__($/;"	m	class:BitFlippingEnv
+__init__	stable_baselines3/common/buffers.py	/^    def __init__($/;"	m	class:BaseBuffer
+__init__	stable_baselines3/common/buffers.py	/^    def __init__($/;"	m	class:ReplayBuffer
+__init__	stable_baselines3/common/buffers.py	/^    def __init__($/;"	m	class:RolloutBuffer
+__init__	stable_baselines3/common/callbacks.py	/^    def __init__($/;"	m	class:EvalCallback
+__init__	stable_baselines3/common/callbacks.py	/^    def __init__(self, callback: Callable, verbose: int = 0):$/;"	m	class:ConvertCallback
+__init__	stable_baselines3/common/callbacks.py	/^    def __init__(self, callback: Optional[BaseCallback] = None, verbose: int = 0):$/;"	m	class:EventCallback
+__init__	stable_baselines3/common/callbacks.py	/^    def __init__(self, callbacks: List[BaseCallback]):$/;"	m	class:CallbackList
+__init__	stable_baselines3/common/callbacks.py	/^    def __init__(self, max_episodes: int, verbose: int = 0):$/;"	m	class:StopTrainingOnMaxEpisodes
+__init__	stable_baselines3/common/callbacks.py	/^    def __init__(self, n_steps: int, callback: BaseCallback):$/;"	m	class:EveryNTimesteps
+__init__	stable_baselines3/common/callbacks.py	/^    def __init__(self, reward_threshold: float, verbose: int = 0):$/;"	m	class:StopTrainingOnRewardThreshold
+__init__	stable_baselines3/common/callbacks.py	/^    def __init__(self, save_freq: int, save_path: str, name_prefix: str = "rl_model", verbose: int = 0):$/;"	m	class:CheckpointCallback
+__init__	stable_baselines3/common/callbacks.py	/^    def __init__(self, verbose: int = 0):$/;"	m	class:BaseCallback
+__init__	stable_baselines3/common/distributions.py	/^    def __init__($/;"	m	class:StateDependentNoiseDistribution
+__init__	stable_baselines3/common/distributions.py	/^    def __init__(self):$/;"	m	class:Distribution
+__init__	stable_baselines3/common/distributions.py	/^    def __init__(self, action_dim: int):$/;"	m	class:CategoricalDistribution
+__init__	stable_baselines3/common/distributions.py	/^    def __init__(self, action_dim: int):$/;"	m	class:DiagGaussianDistribution
+__init__	stable_baselines3/common/distributions.py	/^    def __init__(self, action_dim: int, epsilon: float = 1e-6):$/;"	m	class:SquashedDiagGaussianDistribution
+__init__	stable_baselines3/common/distributions.py	/^    def __init__(self, action_dims: List[int]):$/;"	m	class:MultiCategoricalDistribution
+__init__	stable_baselines3/common/distributions.py	/^    def __init__(self, action_dims: int):$/;"	m	class:BernoulliDistribution
+__init__	stable_baselines3/common/distributions.py	/^    def __init__(self, epsilon: float = 1e-6):$/;"	m	class:TanhBijector
+__init__	stable_baselines3/common/identity_env.py	/^    def __init__($/;"	m	class:FakeImageEnv
+__init__	stable_baselines3/common/identity_env.py	/^    def __init__(self, dim: Optional[int] = None, space: Optional[Space] = None, ep_length: int = 100):$/;"	m	class:IdentityEnv
+__init__	stable_baselines3/common/identity_env.py	/^    def __init__(self, dim: int = 1, ep_length: int = 100):$/;"	m	class:IdentityEnvMultiBinary
+__init__	stable_baselines3/common/identity_env.py	/^    def __init__(self, dim: int = 1, ep_length: int = 100):$/;"	m	class:IdentityEnvMultiDiscrete
+__init__	stable_baselines3/common/identity_env.py	/^    def __init__(self, low: float = -1.0, high: float = 1.0, eps: float = 0.05, ep_length: int = 100):$/;"	m	class:IdentityEnvBox
+__init__	stable_baselines3/common/logger.py	/^    def __init__(self, filename: str):$/;"	m	class:CSVOutputFormat
+__init__	stable_baselines3/common/logger.py	/^    def __init__(self, filename: str):$/;"	m	class:JSONOutputFormat
+__init__	stable_baselines3/common/logger.py	/^    def __init__(self, filename_or_file: Union[str, TextIO]):$/;"	m	class:HumanOutputFormat
+__init__	stable_baselines3/common/logger.py	/^    def __init__(self, folder: Optional[str] = None, format_strings: Optional[List[str]] = None):$/;"	m	class:ScopedConfigure
+__init__	stable_baselines3/common/logger.py	/^    def __init__(self, folder: Optional[str], output_formats: List[KVWriter]):$/;"	m	class:Logger
+__init__	stable_baselines3/common/logger.py	/^    def __init__(self, folder: str):$/;"	m	class:TensorBoardOutputFormat
+__init__	stable_baselines3/common/logger.py	/^    def __init__(self, frames: th.Tensor, fps: Union[float, int]):$/;"	m	class:Video
+__init__	stable_baselines3/common/logger.py	/^    def __init__(self, unsupported_formats: Sequence[str], value_description: str):$/;"	m	class:FormatUnsupportedError
+__init__	stable_baselines3/common/monitor.py	/^    def __init__($/;"	m	class:Monitor
+__init__	stable_baselines3/common/noise.py	/^    def __init__($/;"	m	class:OrnsteinUhlenbeckActionNoise
+__init__	stable_baselines3/common/noise.py	/^    def __init__(self):$/;"	m	class:ActionNoise
+__init__	stable_baselines3/common/noise.py	/^    def __init__(self, base_noise: ActionNoise, n_envs: int):$/;"	m	class:VectorizedActionNoise
+__init__	stable_baselines3/common/noise.py	/^    def __init__(self, mean: np.ndarray, sigma: np.ndarray):$/;"	m	class:NormalActionNoise
+__init__	stable_baselines3/common/off_policy_algorithm.py	/^    def __init__($/;"	m	class:OffPolicyAlgorithm
+__init__	stable_baselines3/common/on_policy_algorithm.py	/^    def __init__($/;"	m	class:OnPolicyAlgorithm
+__init__	stable_baselines3/common/policies.py	/^    def __init__($/;"	m	class:ActorCriticCnnPolicy
+__init__	stable_baselines3/common/policies.py	/^    def __init__($/;"	m	class:ActorCriticPolicy
+__init__	stable_baselines3/common/policies.py	/^    def __init__($/;"	m	class:BaseModel
+__init__	stable_baselines3/common/policies.py	/^    def __init__($/;"	m	class:ContinuousCritic
+__init__	stable_baselines3/common/policies.py	/^    def __init__(self, *args, squash_output: bool = False, **kwargs):$/;"	m	class:BasePolicy
+__init__	stable_baselines3/common/running_mean_std.py	/^    def __init__(self, epsilon: float = 1e-4, shape: Tuple[int, ...] = ()):$/;"	m	class:RunningMeanStd
+__init__	stable_baselines3/common/sb2_compat/rmsprop_tf_like.py	/^    def __init__($/;"	m	class:RMSpropTFLike
+__init__	stable_baselines3/common/torch_layers.py	/^    def __init__($/;"	m	class:MlpExtractor
+__init__	stable_baselines3/common/torch_layers.py	/^    def __init__(self, observation_space: gym.Space):$/;"	m	class:FlattenExtractor
+__init__	stable_baselines3/common/torch_layers.py	/^    def __init__(self, observation_space: gym.Space, features_dim: int = 0):$/;"	m	class:BaseFeaturesExtractor
+__init__	stable_baselines3/common/torch_layers.py	/^    def __init__(self, observation_space: gym.spaces.Box, features_dim: int = 512):$/;"	m	class:NatureCNN
+__init__	stable_baselines3/common/vec_env/base_vec_env.py	/^    def __init__($/;"	m	class:VecEnvWrapper
+__init__	stable_baselines3/common/vec_env/base_vec_env.py	/^    def __init__(self, num_envs: int, observation_space: gym.spaces.Space, action_space: gym.spaces.Space):$/;"	m	class:VecEnv
+__init__	stable_baselines3/common/vec_env/base_vec_env.py	/^    def __init__(self, var: Any):$/;"	m	class:CloudpickleWrapper
+__init__	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def __init__(self, env_fns: List[Callable[[], gym.Env]]):$/;"	m	class:DummyVecEnv
+__init__	stable_baselines3/common/vec_env/obs_dict_wrapper.py	/^    def __init__(self, venv: VecEnv):$/;"	m	class:ObsDictWrapper
+__init__	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def __init__(self, env_fns: List[Callable[[], gym.Env]], start_method: Optional[str] = None):$/;"	m	class:SubprocVecEnv
+__init__	stable_baselines3/common/vec_env/vec_check_nan.py	/^    def __init__(self, venv: VecEnv, raise_exception: bool = False, warn_once: bool = True, check_inf: bool = True):$/;"	m	class:VecCheckNan
+__init__	stable_baselines3/common/vec_env/vec_frame_stack.py	/^    def __init__(self, venv: VecEnv, n_stack: int, channels_order: Optional[str] = None):$/;"	m	class:VecFrameStack
+__init__	stable_baselines3/common/vec_env/vec_normalize.py	/^    def __init__($/;"	m	class:VecNormalize
+__init__	stable_baselines3/common/vec_env/vec_transpose.py	/^    def __init__(self, venv: VecEnv):$/;"	m	class:VecTransposeImage
+__init__	stable_baselines3/common/vec_env/vec_video_recorder.py	/^    def __init__($/;"	m	class:VecVideoRecorder
+__init__	stable_baselines3/ddpg/ddpg.py	/^    def __init__($/;"	m	class:DDPG
+__init__	stable_baselines3/dqn/dqn.py	/^    def __init__($/;"	m	class:DQN
+__init__	stable_baselines3/dqn/policies.py	/^    def __init__($/;"	m	class:CnnPolicy
+__init__	stable_baselines3/dqn/policies.py	/^    def __init__($/;"	m	class:DQNPolicy
+__init__	stable_baselines3/dqn/policies.py	/^    def __init__($/;"	m	class:QNetwork
+__init__	stable_baselines3/her/her.py	/^    def __init__($/;"	m	class:HER
+__init__	stable_baselines3/her/her_replay_buffer.py	/^    def __init__($/;"	m	class:HerReplayBuffer
+__init__	stable_baselines3/ppo/ppo.py	/^    def __init__($/;"	m	class:PPO
+__init__	stable_baselines3/sac/policies.py	/^    def __init__($/;"	m	class:Actor
+__init__	stable_baselines3/sac/policies.py	/^    def __init__($/;"	m	class:CnnPolicy
+__init__	stable_baselines3/sac/policies.py	/^    def __init__($/;"	m	class:SACPolicy
+__init__	stable_baselines3/sac/sac.py	/^    def __init__($/;"	m	class:SAC
+__init__	stable_baselines3/td3/policies.py	/^    def __init__($/;"	m	class:Actor
+__init__	stable_baselines3/td3/policies.py	/^    def __init__($/;"	m	class:CnnPolicy
+__init__	stable_baselines3/td3/policies.py	/^    def __init__($/;"	m	class:TD3Policy
+__init__	stable_baselines3/td3/td3.py	/^    def __init__($/;"	m	class:TD3
+__init__	tests/test_logger.py	/^    def __init__(self, _format: str, lines: Sequence):$/;"	m	class:LogContent
+__init__	tests/test_spaces.py	/^    def __init__(self, n):$/;"	m	class:DummyMultiBinary
+__init__	tests/test_spaces.py	/^    def __init__(self, nvec):$/;"	m	class:DummyMultiDiscreteSpace
+__init__	tests/test_vec_check_nan.py	/^    def __init__(self):$/;"	m	class:NanAndInfEnv
+__init__	tests/test_vec_envs.py	/^    def __init__(self, max_steps):$/;"	m	class:StepEnv
+__init__	tests/test_vec_envs.py	/^    def __init__(self, space):$/;"	m	class:CustomGymEnv
+__init__	tests/test_vec_envs.py	/^    def __init__(self, venv):$/;"	m	class:CustomWrapperA
+__init__	tests/test_vec_envs.py	/^    def __init__(self, venv):$/;"	m	class:CustomWrapperB
+__init__	tests/test_vec_envs.py	/^    def __init__(self, venv):$/;"	m	class:CustomWrapperBB
+__init__	tests/test_vec_normalize.py	/^    def __init__(self):$/;"	m	class:DummyDictEnv
+__repr__	stable_baselines3/common/noise.py	/^    def __repr__(self) -> str:$/;"	m	class:NormalActionNoise	file:
+__repr__	stable_baselines3/common/noise.py	/^    def __repr__(self) -> str:$/;"	m	class:OrnsteinUhlenbeckActionNoise	file:
+__repr__	stable_baselines3/common/noise.py	/^    def __repr__(self) -> str:$/;"	m	class:VectorizedActionNoise	file:
+__repr__	tests/test_logger.py	/^    def __repr__(self):$/;"	m	class:LogContent	file:
+__setstate__	stable_baselines3/common/sb2_compat/rmsprop_tf_like.py	/^    def __setstate__(self, state: Dict[str, Any]) -> None:$/;"	m	class:RMSpropTFLike	file:
+__setstate__	stable_baselines3/common/vec_env/base_vec_env.py	/^    def __setstate__(self, var: Any) -> None:$/;"	m	class:CloudpickleWrapper	file:
+__setstate__	stable_baselines3/common/vec_env/vec_normalize.py	/^    def __setstate__(self, state: Dict[str, Any]) -> None:$/;"	m	class:VecNormalize	file:
+__setstate__	stable_baselines3/her/her_replay_buffer.py	/^    def __setstate__(self, state: Dict[str, Any]) -> None:$/;"	m	class:HerReplayBuffer	file:
+__subclasses__	docs/conf.py	/^    __subclasses__ = []$/;"	v	class:Mock
+__version__	docs/conf.py	/^    __version__ = file_handler.read().strip()$/;"	v
+__version__	setup.py	/^    __version__ = file_handler.read().strip()$/;"	v
+__version__	stable_baselines3/__init__.py	/^    __version__ = file_handler.read().strip()$/;"	v
+_build	stable_baselines3/common/policies.py	/^    def _build(self, lr_schedule: Callable[[float], float]) -> None:$/;"	m	class:ActorCriticPolicy
+_build	stable_baselines3/dqn/policies.py	/^    def _build(self, lr_schedule: Callable) -> None:$/;"	m	class:DQNPolicy
+_build	stable_baselines3/sac/policies.py	/^    def _build(self, lr_schedule: Callable) -> None:$/;"	m	class:SACPolicy
+_build	stable_baselines3/td3/policies.py	/^    def _build(self, lr_schedule: Callable) -> None:$/;"	m	class:TD3Policy
+_build_mlp_extractor	stable_baselines3/common/policies.py	/^    def _build_mlp_extractor(self) -> None:$/;"	m	class:ActorCriticPolicy
+_check_image_input	stable_baselines3/common/env_checker.py	/^def _check_image_input(observation_space: spaces.Box) -> None:$/;"	f
+_check_nan	stable_baselines3/common/env_checker.py	/^def _check_nan(env: gym.Env) -> None:$/;"	f
+_check_obs	stable_baselines3/common/env_checker.py	/^def _check_obs(obs: Union[tuple, dict, np.ndarray, int], observation_space: spaces.Space, method_name: str) -> None:$/;"	f
+_check_render	stable_baselines3/common/env_checker.py	/^def _check_render(env: gym.Env, warn: bool = True, headless: bool = False) -> None:$/;"	f
+_check_returned_values	stable_baselines3/common/env_checker.py	/^def _check_returned_values(env: gym.Env, observation_space: spaces.Space, action_space: spaces.Space) -> None:$/;"	f
+_check_spaces	stable_baselines3/common/env_checker.py	/^def _check_spaces(env: gym.Env) -> None:$/;"	f
+_check_unsupported_spaces	stable_baselines3/common/env_checker.py	/^def _check_unsupported_spaces(env: gym.Env, observation_space: spaces.Space, action_space: spaces.Space) -> None:$/;"	f
+_check_val	stable_baselines3/common/vec_env/vec_check_nan.py	/^    def _check_val(self, *, async_step: bool, **kwargs) -> None:$/;"	m	class:VecCheckNan
+_choose_next_state	stable_baselines3/common/identity_env.py	/^    def _choose_next_state(self) -> None:$/;"	m	class:IdentityEnv
+_choose_next_state	tests/test_vec_envs.py	/^    def _choose_next_state(self):$/;"	m	class:CustomGymEnv
+_create_aliases	stable_baselines3/dqn/dqn.py	/^    def _create_aliases(self) -> None:$/;"	m	class:DQN
+_create_aliases	stable_baselines3/sac/sac.py	/^    def _create_aliases(self) -> None:$/;"	m	class:SAC
+_create_aliases	stable_baselines3/td3/td3.py	/^    def _create_aliases(self) -> None:$/;"	m	class:TD3
+_do_log	stable_baselines3/common/logger.py	/^    def _do_log(self, args) -> None:$/;"	m	class:Logger
+_dummy_schedule	stable_baselines3/common/policies.py	/^    def _dummy_schedule(progress_remaining: float) -> float:$/;"	m	class:BasePolicy
+_dump_logs	stable_baselines3/common/off_policy_algorithm.py	/^    def _dump_logs(self) -> None:$/;"	m	class:OffPolicyAlgorithm
+_excluded_save_params	stable_baselines3/common/base_class.py	/^    def _excluded_save_params(self) -> List[str]:$/;"	m	class:BaseAlgorithm
+_excluded_save_params	stable_baselines3/dqn/dqn.py	/^    def _excluded_save_params(self) -> List[str]:$/;"	m	class:DQN
+_excluded_save_params	stable_baselines3/sac/sac.py	/^    def _excluded_save_params(self) -> List[str]:$/;"	m	class:SAC
+_excluded_save_params	stable_baselines3/td3/td3.py	/^    def _excluded_save_params(self) -> List[str]:$/;"	m	class:TD3
+_flatten_obs	stable_baselines3/common/vec_env/subproc_vec_env.py	/^def _flatten_obs(obs: Union[List[VecEnvObs], Tuple[VecEnvObs]], space: gym.spaces.Space) -> VecEnvObs:$/;"	f
+_get_action_dist_from_latent	stable_baselines3/common/policies.py	/^    def _get_action_dist_from_latent(self, latent_pi: th.Tensor, latent_sde: Optional[th.Tensor] = None) -> Distribution:$/;"	m	class:ActorCriticPolicy
+_get_all_attributes	stable_baselines3/common/vec_env/base_vec_env.py	/^    def _get_all_attributes(self) -> Dict[str, Any]:$/;"	m	class:VecEnvWrapper
+_get_data	stable_baselines3/common/policies.py	/^    def _get_data(self) -> Dict[str, Any]:$/;"	m	class:ActorCriticPolicy
+_get_data	stable_baselines3/common/policies.py	/^    def _get_data(self) -> Dict[str, Any]:$/;"	m	class:BaseModel
+_get_data	stable_baselines3/dqn/policies.py	/^    def _get_data(self) -> Dict[str, Any]:$/;"	m	class:DQNPolicy
+_get_data	stable_baselines3/dqn/policies.py	/^    def _get_data(self) -> Dict[str, Any]:$/;"	m	class:QNetwork
+_get_data	stable_baselines3/sac/policies.py	/^    def _get_data(self) -> Dict[str, Any]:$/;"	m	class:Actor
+_get_data	stable_baselines3/sac/policies.py	/^    def _get_data(self) -> Dict[str, Any]:$/;"	m	class:SACPolicy
+_get_data	stable_baselines3/td3/policies.py	/^    def _get_data(self) -> Dict[str, Any]:$/;"	m	class:Actor
+_get_data	stable_baselines3/td3/policies.py	/^    def _get_data(self) -> Dict[str, Any]:$/;"	m	class:TD3Policy
+_get_eval_env	stable_baselines3/common/base_class.py	/^    def _get_eval_env(self, eval_env: Optional[GymEnv]) -> Optional[GymEnv]:$/;"	m	class:BaseAlgorithm
+_get_indices	stable_baselines3/common/vec_env/base_vec_env.py	/^    def _get_indices(self, indices: VecEnvIndices) -> Iterable[int]:$/;"	m	class:VecEnv
+_get_latent	stable_baselines3/common/policies.py	/^    def _get_latent(self, obs: th.Tensor) -> Tuple[th.Tensor, th.Tensor, th.Tensor]:$/;"	m	class:ActorCriticPolicy
+_get_obs	stable_baselines3/common/bit_flipping_env.py	/^    def _get_obs(self) -> Dict[str, Union[int, np.ndarray]]:$/;"	m	class:BitFlippingEnv
+_get_reward	stable_baselines3/common/identity_env.py	/^    def _get_reward(self, action: Union[int, np.ndarray]) -> float:$/;"	m	class:IdentityEnv
+_get_reward	stable_baselines3/common/identity_env.py	/^    def _get_reward(self, action: np.ndarray) -> float:$/;"	m	class:IdentityEnvBox
+_get_samples	stable_baselines3/common/buffers.py	/^    def _get_samples($/;"	m	class:BaseBuffer
+_get_samples	stable_baselines3/common/buffers.py	/^    def _get_samples(self, batch_inds: np.ndarray, env: Optional[VecNormalize] = None) -> ReplayBufferSamples:$/;"	m	class:ReplayBuffer
+_get_samples	stable_baselines3/common/buffers.py	/^    def _get_samples(self, batch_inds: np.ndarray, env: Optional[VecNormalize] = None) -> RolloutBufferSamples:$/;"	m	class:RolloutBuffer
+_get_samples	stable_baselines3/her/her_replay_buffer.py	/^    def _get_samples($/;"	m	class:HerReplayBuffer
+_get_target_envs	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def _get_target_envs(self, indices: VecEnvIndices) -> List[gym.Env]:$/;"	m	class:DummyVecEnv
+_get_target_remotes	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def _get_target_remotes(self, indices: VecEnvIndices) -> List[Any]:$/;"	m	class:SubprocVecEnv
+_get_torch_save_params	stable_baselines3/common/base_class.py	/^    def _get_torch_save_params(self) -> Tuple[List[str], List[str]]:$/;"	m	class:BaseAlgorithm
+_get_torch_save_params	stable_baselines3/common/on_policy_algorithm.py	/^    def _get_torch_save_params(self) -> Tuple[List[str], List[str]]:$/;"	m	class:OnPolicyAlgorithm
+_get_torch_save_params	stable_baselines3/dqn/dqn.py	/^    def _get_torch_save_params(self) -> Tuple[List[str], List[str]]:$/;"	m	class:DQN
+_get_torch_save_params	stable_baselines3/her/her.py	/^    def _get_torch_save_params(self) -> Tuple[List[str], List[str]]:$/;"	m	class:HER
+_get_torch_save_params	stable_baselines3/sac/sac.py	/^    def _get_torch_save_params(self) -> Tuple[List[str], List[str]]:$/;"	m	class:SAC
+_get_torch_save_params	stable_baselines3/td3/td3.py	/^    def _get_torch_save_params(self) -> Tuple[List[str], List[str]]:$/;"	m	class:TD3
+_getattr	stable_baselines3/common/save_util.py	/^    def _getattr(obj: Any, attr: str) -> Any:$/;"	f	function:recursive_getattr
+_init	stable_baselines3/common/env_util.py	/^        def _init():$/;"	f	function:make_vec_env.make_env
+_init_callback	stable_baselines3/common/base_class.py	/^    def _init_callback($/;"	m	class:BaseAlgorithm
+_init_callback	stable_baselines3/common/callbacks.py	/^    def _init_callback(self) -> None:$/;"	m	class:BaseCallback
+_init_callback	stable_baselines3/common/callbacks.py	/^    def _init_callback(self) -> None:$/;"	m	class:CallbackList
+_init_callback	stable_baselines3/common/callbacks.py	/^    def _init_callback(self) -> None:$/;"	m	class:CheckpointCallback
+_init_callback	stable_baselines3/common/callbacks.py	/^    def _init_callback(self) -> None:$/;"	m	class:EvalCallback
+_init_callback	stable_baselines3/common/callbacks.py	/^    def _init_callback(self) -> None:$/;"	m	class:StopTrainingOnMaxEpisodes
+_is_numpy_array_space	stable_baselines3/common/env_checker.py	/^def _is_numpy_array_space(space: spaces.Space) -> bool:$/;"	f
+_make_warmstart_cartpole	tests/test_vec_normalize.py	/^def _make_warmstart_cartpole():$/;"	f
+_make_warmstart_dict_env	tests/test_vec_normalize.py	/^def _make_warmstart_dict_env():$/;"	f
+_normalize_obs	stable_baselines3/common/buffers.py	/^    def _normalize_obs($/;"	m	class:BaseBuffer
+_normalize_obs	stable_baselines3/common/vec_env/vec_normalize.py	/^    def _normalize_obs(self, obs: np.ndarray, obs_rms: RunningMeanStd) -> np.ndarray:$/;"	m	class:VecNormalize
+_normalize_reward	stable_baselines3/common/buffers.py	/^    def _normalize_reward(reward: np.ndarray, env: Optional[VecNormalize] = None) -> np.ndarray:$/;"	m	class:BaseBuffer
+_obs_from_buf	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def _obs_from_buf(self) -> VecEnvObs:$/;"	m	class:DummyVecEnv
+_on_event	stable_baselines3/common/callbacks.py	/^    def _on_event(self) -> bool:$/;"	m	class:EventCallback
+_on_rollout_end	stable_baselines3/common/callbacks.py	/^    def _on_rollout_end(self) -> None:$/;"	m	class:BaseCallback
+_on_rollout_end	stable_baselines3/common/callbacks.py	/^    def _on_rollout_end(self) -> None:$/;"	m	class:CallbackList
+_on_rollout_start	stable_baselines3/common/callbacks.py	/^    def _on_rollout_start(self) -> None:$/;"	m	class:BaseCallback
+_on_rollout_start	stable_baselines3/common/callbacks.py	/^    def _on_rollout_start(self) -> None:$/;"	m	class:CallbackList
+_on_step	stable_baselines3/common/callbacks.py	/^    def _on_step(self) -> bool:$/;"	m	class:BaseCallback
+_on_step	stable_baselines3/common/callbacks.py	/^    def _on_step(self) -> bool:$/;"	m	class:CallbackList
+_on_step	stable_baselines3/common/callbacks.py	/^    def _on_step(self) -> bool:$/;"	m	class:CheckpointCallback
+_on_step	stable_baselines3/common/callbacks.py	/^    def _on_step(self) -> bool:$/;"	m	class:ConvertCallback
+_on_step	stable_baselines3/common/callbacks.py	/^    def _on_step(self) -> bool:$/;"	m	class:EvalCallback
+_on_step	stable_baselines3/common/callbacks.py	/^    def _on_step(self) -> bool:$/;"	m	class:EventCallback
+_on_step	stable_baselines3/common/callbacks.py	/^    def _on_step(self) -> bool:$/;"	m	class:EveryNTimesteps
+_on_step	stable_baselines3/common/callbacks.py	/^    def _on_step(self) -> bool:$/;"	m	class:StopTrainingOnMaxEpisodes
+_on_step	stable_baselines3/common/callbacks.py	/^    def _on_step(self) -> bool:$/;"	m	class:StopTrainingOnRewardThreshold
+_on_step	stable_baselines3/common/off_policy_algorithm.py	/^    def _on_step(self) -> None:$/;"	m	class:OffPolicyAlgorithm
+_on_step	stable_baselines3/dqn/dqn.py	/^    def _on_step(self) -> None:$/;"	m	class:DQN
+_on_training_end	stable_baselines3/common/callbacks.py	/^    def _on_training_end(self) -> None:$/;"	m	class:BaseCallback
+_on_training_end	stable_baselines3/common/callbacks.py	/^    def _on_training_end(self) -> None:$/;"	m	class:CallbackList
+_on_training_start	stable_baselines3/common/callbacks.py	/^    def _on_training_start(self) -> None:$/;"	m	class:BaseCallback
+_on_training_start	stable_baselines3/common/callbacks.py	/^    def _on_training_start(self) -> None:$/;"	m	class:CallbackList
+_on_training_start	stable_baselines3/common/callbacks.py	/^    def _on_training_start(self) -> None:$/;"	m	class:EventCallback
+_policy_registry	stable_baselines3/common/policies.py	/^_policy_registry = dict()  # type: Dict[Type[BasePolicy], Dict[str, Type[BasePolicy]]]$/;"	v
+_predict	stable_baselines3/common/policies.py	/^    def _predict(self, observation: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:ActorCriticPolicy
+_predict	stable_baselines3/common/policies.py	/^    def _predict(self, observation: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:BasePolicy
+_predict	stable_baselines3/dqn/policies.py	/^    def _predict(self, obs: th.Tensor, deterministic: bool = True) -> th.Tensor:$/;"	m	class:DQNPolicy
+_predict	stable_baselines3/dqn/policies.py	/^    def _predict(self, observation: th.Tensor, deterministic: bool = True) -> th.Tensor:$/;"	m	class:QNetwork
+_predict	stable_baselines3/sac/policies.py	/^    def _predict(self, observation: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:Actor
+_predict	stable_baselines3/sac/policies.py	/^    def _predict(self, observation: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:SACPolicy
+_predict	stable_baselines3/td3/policies.py	/^    def _predict(self, observation: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:Actor
+_predict	stable_baselines3/td3/policies.py	/^    def _predict(self, observation: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:TD3Policy
+_sample_action	stable_baselines3/common/off_policy_algorithm.py	/^    def _sample_action($/;"	m	class:OffPolicyAlgorithm
+_sample_her_transitions	stable_baselines3/her/her.py	/^    def _sample_her_transitions(self) -> None:$/;"	m	class:HER
+_sample_transitions	stable_baselines3/her/her_replay_buffer.py	/^    def _sample_transitions($/;"	m	class:HerReplayBuffer
+_save_obs	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def _save_obs(self, env_idx: int, obs: VecEnvObs) -> None:$/;"	m	class:DummyVecEnv
+_setup_learn	stable_baselines3/common/base_class.py	/^    def _setup_learn($/;"	m	class:BaseAlgorithm
+_setup_learn	stable_baselines3/common/off_policy_algorithm.py	/^    def _setup_learn($/;"	m	class:OffPolicyAlgorithm
+_setup_lr_schedule	stable_baselines3/common/base_class.py	/^    def _setup_lr_schedule(self) -> None:$/;"	m	class:BaseAlgorithm
+_setup_model	stable_baselines3/common/base_class.py	/^    def _setup_model(self) -> None:$/;"	m	class:BaseAlgorithm
+_setup_model	stable_baselines3/common/off_policy_algorithm.py	/^    def _setup_model(self) -> None:$/;"	m	class:OffPolicyAlgorithm
+_setup_model	stable_baselines3/common/on_policy_algorithm.py	/^    def _setup_model(self) -> None:$/;"	m	class:OnPolicyAlgorithm
+_setup_model	stable_baselines3/dqn/dqn.py	/^    def _setup_model(self) -> None:$/;"	m	class:DQN
+_setup_model	stable_baselines3/her/her.py	/^    def _setup_model(self) -> None:$/;"	m	class:HER
+_setup_model	stable_baselines3/ppo/ppo.py	/^    def _setup_model(self) -> None:$/;"	m	class:PPO
+_setup_model	stable_baselines3/sac/sac.py	/^    def _setup_model(self) -> None:$/;"	m	class:SAC
+_setup_model	stable_baselines3/td3/td3.py	/^    def _setup_model(self) -> None:$/;"	m	class:TD3
+_truncate	stable_baselines3/common/logger.py	/^    def _truncate(cls, string: str, max_length: int = 23) -> str:$/;"	m	class:HumanOutputFormat
+_unnormalize_obs	stable_baselines3/common/vec_env/vec_normalize.py	/^    def _unnormalize_obs(self, obs: np.ndarray, obs_rms: RunningMeanStd) -> np.ndarray:$/;"	m	class:VecNormalize
+_update_current_progress_remaining	stable_baselines3/common/base_class.py	/^    def _update_current_progress_remaining(self, num_timesteps: int, total_timesteps: int) -> None:$/;"	m	class:BaseAlgorithm
+_update_features_extractor	stable_baselines3/common/policies.py	/^    def _update_features_extractor($/;"	m	class:BaseModel
+_update_info_buffer	stable_baselines3/common/base_class.py	/^    def _update_info_buffer(self, infos: List[Dict[str, Any]], dones: Optional[np.ndarray] = None) -> None:$/;"	m	class:BaseAlgorithm
+_update_learning_rate	stable_baselines3/common/base_class.py	/^    def _update_learning_rate(self, optimizers: Union[List[th.optim.Optimizer], th.optim.Optimizer]) -> None:$/;"	m	class:BaseAlgorithm
+_update_reward	stable_baselines3/common/vec_env/vec_normalize.py	/^    def _update_reward(self, reward: np.ndarray) -> None:$/;"	m	class:VecNormalize
+_video_enabled	stable_baselines3/common/vec_env/vec_video_recorder.py	/^    def _video_enabled(self) -> bool:$/;"	m	class:VecVideoRecorder
+_worker	stable_baselines3/common/vec_env/subproc_vec_env.py	/^def _worker($/;"	f
+_wrap_env	stable_baselines3/common/base_class.py	/^    def _wrap_env(env: GymEnv, verbose: int = 0) -> VecEnv:$/;"	m	class:BaseAlgorithm
+action_log_prob	stable_baselines3/sac/policies.py	/^    def action_log_prob(self, obs: th.Tensor) -> Tuple[th.Tensor, th.Tensor]:$/;"	m	class:Actor
+action_space	tests/test_env_checker.py	/^    action_space = Dict({"position": Discrete(1), "velocity": Discrete(1)})$/;"	v	class:ActionDictTestEnv
+actions_from_params	stable_baselines3/common/distributions.py	/^    def actions_from_params($/;"	m	class:StateDependentNoiseDistribution
+actions_from_params	stable_baselines3/common/distributions.py	/^    def actions_from_params(self, *args, **kwargs) -> th.Tensor:$/;"	m	class:Distribution
+actions_from_params	stable_baselines3/common/distributions.py	/^    def actions_from_params(self, action_logits: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:BernoulliDistribution
+actions_from_params	stable_baselines3/common/distributions.py	/^    def actions_from_params(self, action_logits: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:CategoricalDistribution
+actions_from_params	stable_baselines3/common/distributions.py	/^    def actions_from_params(self, action_logits: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:MultiCategoricalDistribution
+actions_from_params	stable_baselines3/common/distributions.py	/^    def actions_from_params(self, mean_actions: th.Tensor, log_std: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:DiagGaussianDistribution
+add	stable_baselines3/common/buffers.py	/^    def add($/;"	m	class:RolloutBuffer
+add	stable_baselines3/common/buffers.py	/^    def add(self, *args, **kwargs) -> None:$/;"	m	class:BaseBuffer
+add	stable_baselines3/common/buffers.py	/^    def add(self, obs: np.ndarray, next_obs: np.ndarray, action: np.ndarray, reward: np.ndarray, done: np.ndarray) -> None:$/;"	m	class:ReplayBuffer
+add	stable_baselines3/her/her_replay_buffer.py	/^    def add($/;"	m	class:HerReplayBuffer
+allclose	tests/test_vec_normalize.py	/^def allclose(obs_1, obs_2):$/;"	f
+atanh	stable_baselines3/common/distributions.py	/^    def atanh(x: th.Tensor) -> th.Tensor:$/;"	m	class:TanhBijector
+atari_wrapper	stable_baselines3/common/env_util.py	/^    def atari_wrapper(env: gym.Env) -> gym.Env:$/;"	f	function:make_atari_env
+author	docs/conf.py	/^author = "Stable Baselines3 Contributors"$/;"	v
+author	setup.py	/^    author="Antonin Raffin",$/;"	v
+author_email	setup.py	/^    author_email="antonin.raffin@dlr.de",$/;"	v
+base_noise	stable_baselines3/common/noise.py	/^    def base_noise(self) -> ActionNoise:$/;"	m	class:VectorizedActionNoise
+base_noise	stable_baselines3/common/noise.py	/^    def base_noise(self, base_noise: ActionNoise) -> None:$/;"	m	class:VectorizedActionNoise
+cast_to_json_serializable	stable_baselines3/common/logger.py	/^        def cast_to_json_serializable(value: Any):$/;"	f	function:JSONOutputFormat.write
+categorical_params	tests/test_distributions.py	/^categorical_params = [$/;"	v
+check_env	stable_baselines3/common/env_checker.py	/^def check_env(env: gym.Env, warn: bool = True, skip_render_check: bool = True) -> None:$/;"	f
+check_for_correct_spaces	stable_baselines3/common/utils.py	/^def check_for_correct_spaces(env: GymEnv, observation_space: gym.spaces.Space, action_space: gym.spaces.Space) -> None:$/;"	f
+check_reset_assert_error	tests/test_envs.py	/^def check_reset_assert_error(env, new_reset_return):$/;"	f
+check_rms_equal	tests/test_vec_normalize.py	/^def check_rms_equal(rmsa, rmsb):$/;"	f
+check_step_assert_error	tests/test_envs.py	/^def check_step_assert_error(env, new_step_return=()):$/;"	f
+check_td3_feature_extractor_differ	tests/test_cnn.py	/^def check_td3_feature_extractor_differ(model):$/;"	f
+check_td3_feature_extractor_match	tests/test_cnn.py	/^def check_td3_feature_extractor_match(model):$/;"	f
+check_vec_norm_equal	tests/test_vec_normalize.py	/^def check_vec_norm_equal(norma, normb):$/;"	f
+check_vecenv_obs	tests/test_vec_envs.py	/^def check_vecenv_obs(obs, space):$/;"	f
+check_vecenv_spaces	tests/test_vec_envs.py	/^def check_vecenv_spaces(vec_env_class, space, obs_assert):$/;"	f
+close	stable_baselines3/common/bit_flipping_env.py	/^    def close(self) -> None:$/;"	m	class:BitFlippingEnv
+close	stable_baselines3/common/logger.py	/^    def close(self) -> None:$/;"	m	class:CSVOutputFormat
+close	stable_baselines3/common/logger.py	/^    def close(self) -> None:$/;"	m	class:HumanOutputFormat
+close	stable_baselines3/common/logger.py	/^    def close(self) -> None:$/;"	m	class:JSONOutputFormat
+close	stable_baselines3/common/logger.py	/^    def close(self) -> None:$/;"	m	class:KVWriter
+close	stable_baselines3/common/logger.py	/^    def close(self) -> None:$/;"	m	class:Logger
+close	stable_baselines3/common/logger.py	/^    def close(self) -> None:$/;"	m	class:TensorBoardOutputFormat
+close	stable_baselines3/common/monitor.py	/^    def close(self) -> None:$/;"	m	class:Monitor
+close	stable_baselines3/common/vec_env/base_vec_env.py	/^    def close(self) -> None:$/;"	m	class:VecEnv
+close	stable_baselines3/common/vec_env/base_vec_env.py	/^    def close(self) -> None:$/;"	m	class:VecEnvWrapper
+close	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def close(self) -> None:$/;"	m	class:DummyVecEnv
+close	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def close(self) -> None:$/;"	m	class:SubprocVecEnv
+close	stable_baselines3/common/vec_env/vec_frame_stack.py	/^    def close(self) -> None:$/;"	m	class:VecFrameStack
+close	stable_baselines3/common/vec_env/vec_transpose.py	/^    def close(self) -> None:$/;"	m	class:VecTransposeImage
+close	stable_baselines3/common/vec_env/vec_video_recorder.py	/^    def close(self) -> None:$/;"	m	class:VecVideoRecorder
+close_video_recorder	stable_baselines3/common/vec_env/vec_video_recorder.py	/^    def close_video_recorder(self) -> None:$/;"	m	class:VecVideoRecorder
+collect_rollouts	stable_baselines3/common/off_policy_algorithm.py	/^    def collect_rollouts($/;"	m	class:OffPolicyAlgorithm
+collect_rollouts	stable_baselines3/common/on_policy_algorithm.py	/^    def collect_rollouts($/;"	m	class:OnPolicyAlgorithm
+collect_rollouts	stable_baselines3/her/her.py	/^    def collect_rollouts($/;"	m	class:HER
+compute_returns_and_advantage	stable_baselines3/common/buffers.py	/^    def compute_returns_and_advantage(self, last_values: th.Tensor, dones: np.ndarray) -> None:$/;"	m	class:RolloutBuffer
+compute_reward	stable_baselines3/common/bit_flipping_env.py	/^    def compute_reward($/;"	m	class:BitFlippingEnv
+compute_reward	tests/test_vec_normalize.py	/^    def compute_reward(self, achieved_goal: np.ndarray, desired_goal: np.ndarray, _info) -> np.float32:$/;"	m	class:DummyDictEnv
+configure	stable_baselines3/common/logger.py	/^def configure(folder: Optional[str] = None, format_strings: Optional[List[str]] = None) -> None:$/;"	f
+configure_logger	stable_baselines3/common/utils.py	/^def configure_logger($/;"	f
+constant_fn	stable_baselines3/common/utils.py	/^def constant_fn(val: float) -> Callable:$/;"	f
+convert_dict	stable_baselines3/common/vec_env/obs_dict_wrapper.py	/^    def convert_dict($/;"	m	class:ObsDictWrapper
+convert_if_needed	stable_baselines3/common/bit_flipping_env.py	/^    def convert_if_needed(self, state: np.ndarray) -> Union[int, np.ndarray]:$/;"	m	class:BitFlippingEnv
+copy_obs_dict	stable_baselines3/common/vec_env/util.py	/^def copy_obs_dict(obs: Dict[str, np.ndarray]) -> Dict[str, np.ndarray]:$/;"	f
+copyright	docs/conf.py	/^copyright = "2020, Stable Baselines3"$/;"	v
+create_mlp	stable_baselines3/common/torch_layers.py	/^def create_mlp($/;"	f
+create_sde_features_extractor	stable_baselines3/common/policies.py	/^def create_sde_features_extractor($/;"	f
+custom_method	tests/test_vec_envs.py	/^    def custom_method(dim_0=1, dim_1=1):$/;"	m	class:CustomGymEnv
+cv2	stable_baselines3/common/atari_wrappers.py	/^    cv2 = None$/;"	v
+data_to_json	stable_baselines3/common/save_util.py	/^def data_to_json(data: Dict[str, Any]) -> str:$/;"	f
+debug	stable_baselines3/common/logger.py	/^def debug(*args) -> None:$/;"	f
+description	setup.py	/^    description="Pytorch version of Stable Baselines, implementations of reinforcement learning algorithms.",$/;"	v
+device	stable_baselines3/common/policies.py	/^    def device(self) -> th.device:$/;"	m	class:BaseModel
+dict_to_obs	stable_baselines3/common/vec_env/util.py	/^def dict_to_obs(space: gym.spaces.Space, obs_dict: Dict[Any, np.ndarray]) -> VecEnvObs:$/;"	f
+dummy_callback	tests/test_utils.py	/^    def dummy_callback(locals_, _globals):$/;"	f	function:test_evaluate_policy
+dump	stable_baselines3/common/logger.py	/^    def dump(self, step: int = 0) -> None:$/;"	m	class:Logger
+dump	stable_baselines3/common/logger.py	/^def dump(step: int = 0) -> None:$/;"	f
+dump_tabular	stable_baselines3/common/logger.py	/^dump_tabular = dump$/;"	v
+empty	tests/test_logger.py	/^    def empty(self):$/;"	m	class:LogContent
+enable_spell_check	docs/conf.py	/^    enable_spell_check = False$/;"	v
+enable_spell_check	docs/conf.py	/^    enable_spell_check = True$/;"	v
+end	docs/make.bat	/^:end$/;"	l
+entropy	stable_baselines3/common/distributions.py	/^    def entropy(self) -> Optional[th.Tensor]:$/;"	m	class:Distribution
+entropy	stable_baselines3/common/distributions.py	/^    def entropy(self) -> Optional[th.Tensor]:$/;"	m	class:SquashedDiagGaussianDistribution
+entropy	stable_baselines3/common/distributions.py	/^    def entropy(self) -> Optional[th.Tensor]:$/;"	m	class:StateDependentNoiseDistribution
+entropy	stable_baselines3/common/distributions.py	/^    def entropy(self) -> th.Tensor:$/;"	m	class:BernoulliDistribution
+entropy	stable_baselines3/common/distributions.py	/^    def entropy(self) -> th.Tensor:$/;"	m	class:CategoricalDistribution
+entropy	stable_baselines3/common/distributions.py	/^    def entropy(self) -> th.Tensor:$/;"	m	class:DiagGaussianDistribution
+entropy	stable_baselines3/common/distributions.py	/^    def entropy(self) -> th.Tensor:$/;"	m	class:MultiCategoricalDistribution
+env_method	stable_baselines3/common/vec_env/base_vec_env.py	/^    def env_method(self, method_name: str, *method_args, indices: VecEnvIndices = None, **method_kwargs) -> List[Any]:$/;"	m	class:VecEnv
+env_method	stable_baselines3/common/vec_env/base_vec_env.py	/^    def env_method(self, method_name: str, *method_args, indices: VecEnvIndices = None, **method_kwargs) -> List[Any]:$/;"	m	class:VecEnvWrapper
+env_method	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def env_method(self, method_name: str, *method_args, indices: VecEnvIndices = None, **method_kwargs) -> List[Any]:$/;"	m	class:DummyVecEnv
+env_method	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def env_method(self, method_name: str, *method_args, indices: VecEnvIndices = None, **method_kwargs) -> List[Any]:$/;"	m	class:SubprocVecEnv
+error	stable_baselines3/common/logger.py	/^def error(*args) -> None:$/;"	f
+evaluate_actions	stable_baselines3/common/policies.py	/^    def evaluate_actions(self, obs: th.Tensor, actions: th.Tensor) -> Tuple[th.Tensor, th.Tensor, th.Tensor]:$/;"	m	class:ActorCriticPolicy
+evaluate_policy	stable_baselines3/common/evaluation.py	/^def evaluate_policy($/;"	f
+exclude_patterns	docs/conf.py	/^exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]$/;"	v
+explained_variance	stable_baselines3/common/utils.py	/^def explained_variance(y_pred: np.ndarray, y_true: np.ndarray) -> np.ndarray:$/;"	f
+extend	stable_baselines3/common/buffers.py	/^    def extend(self, *args, **kwargs) -> None:$/;"	m	class:BaseBuffer
+extensions	docs/conf.py	/^extensions = [$/;"	v
+extract_features	stable_baselines3/common/policies.py	/^    def extract_features(self, obs: th.Tensor) -> th.Tensor:$/;"	m	class:BaseModel
+extras_require	setup.py	/^    extras_require={$/;"	v
+features_dim	stable_baselines3/common/torch_layers.py	/^    def features_dim(self) -> int:$/;"	m	class:BaseFeaturesExtractor
+filter_excluded_keys	stable_baselines3/common/logger.py	/^def filter_excluded_keys($/;"	f
+forward	stable_baselines3/common/distributions.py	/^    def forward(x: th.Tensor) -> th.Tensor:$/;"	m	class:TanhBijector
+forward	stable_baselines3/common/policies.py	/^    def forward(self, *args, **kwargs):$/;"	m	class:BaseModel
+forward	stable_baselines3/common/policies.py	/^    def forward(self, obs: th.Tensor, actions: th.Tensor) -> Tuple[th.Tensor, ...]:$/;"	m	class:ContinuousCritic
+forward	stable_baselines3/common/policies.py	/^    def forward(self, obs: th.Tensor, deterministic: bool = False) -> Tuple[th.Tensor, th.Tensor, th.Tensor]:$/;"	m	class:ActorCriticPolicy
+forward	stable_baselines3/common/torch_layers.py	/^    def forward(self, features: th.Tensor) -> Tuple[th.Tensor, th.Tensor]:$/;"	m	class:MlpExtractor
+forward	stable_baselines3/common/torch_layers.py	/^    def forward(self, observations: th.Tensor) -> th.Tensor:$/;"	m	class:BaseFeaturesExtractor
+forward	stable_baselines3/common/torch_layers.py	/^    def forward(self, observations: th.Tensor) -> th.Tensor:$/;"	m	class:FlattenExtractor
+forward	stable_baselines3/common/torch_layers.py	/^    def forward(self, observations: th.Tensor) -> th.Tensor:$/;"	m	class:NatureCNN
+forward	stable_baselines3/dqn/policies.py	/^    def forward(self, obs: th.Tensor) -> th.Tensor:$/;"	m	class:QNetwork
+forward	stable_baselines3/dqn/policies.py	/^    def forward(self, obs: th.Tensor, deterministic: bool = True) -> th.Tensor:$/;"	m	class:DQNPolicy
+forward	stable_baselines3/sac/policies.py	/^    def forward(self, obs: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:Actor
+forward	stable_baselines3/sac/policies.py	/^    def forward(self, obs: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:SACPolicy
+forward	stable_baselines3/td3/policies.py	/^    def forward(self, obs: th.Tensor, deterministic: bool = True) -> th.Tensor:$/;"	m	class:Actor
+forward	stable_baselines3/td3/policies.py	/^    def forward(self, observation: th.Tensor, deterministic: bool = False) -> th.Tensor:$/;"	m	class:TD3Policy
+func	stable_baselines3/common/utils.py	/^    def func(_):$/;"	f	function:constant_fn
+func	stable_baselines3/common/utils.py	/^    def func(progress_remaining: float) -> float:$/;"	f	function:get_linear_fn
+func_b	tests/test_vec_envs.py	/^    def func_b(self):$/;"	m	class:CustomWrapperB
+get	stable_baselines3/common/buffers.py	/^    def get(self, batch_size: Optional[int] = None) -> Generator[RolloutBufferSamples, None, None]:$/;"	m	class:RolloutBuffer
+get_action_dim	stable_baselines3/common/preprocessing.py	/^def get_action_dim(action_space: spaces.Space) -> int:$/;"	f
+get_action_dist_params	stable_baselines3/sac/policies.py	/^    def get_action_dist_params(self, obs: th.Tensor) -> Tuple[th.Tensor, th.Tensor, Dict[str, th.Tensor]]:$/;"	m	class:Actor
+get_actions	stable_baselines3/common/distributions.py	/^    def get_actions(self, deterministic: bool = False) -> th.Tensor:$/;"	m	class:Distribution
+get_actor_critic_arch	stable_baselines3/common/torch_layers.py	/^def get_actor_critic_arch(net_arch: Union[List[int], Dict[str, List[int]]]) -> Tuple[List[int], List[int]]:$/;"	f
+get_attr	stable_baselines3/common/vec_env/base_vec_env.py	/^    def get_attr(self, attr_name: str, indices: VecEnvIndices = None) -> List[Any]:$/;"	m	class:VecEnv
+get_attr	stable_baselines3/common/vec_env/base_vec_env.py	/^    def get_attr(self, attr_name: str, indices: VecEnvIndices = None) -> List[Any]:$/;"	m	class:VecEnvWrapper
+get_attr	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def get_attr(self, attr_name: str, indices: VecEnvIndices = None) -> List[Any]:$/;"	m	class:DummyVecEnv
+get_attr	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def get_attr(self, attr_name: str, indices: VecEnvIndices = None) -> List[Any]:$/;"	m	class:SubprocVecEnv
+get_device	stable_baselines3/common/utils.py	/^def get_device(device: Union[th.device, str] = "auto") -> th.device:$/;"	f
+get_dir	stable_baselines3/common/logger.py	/^    def get_dir(self) -> str:$/;"	m	class:Logger
+get_dir	stable_baselines3/common/logger.py	/^def get_dir() -> str:$/;"	f
+get_env	stable_baselines3/common/base_class.py	/^    def get_env(self) -> Optional[VecEnv]:$/;"	m	class:BaseAlgorithm
+get_episode_lengths	stable_baselines3/common/monitor.py	/^    def get_episode_lengths(self) -> List[int]:$/;"	m	class:Monitor
+get_episode_rewards	stable_baselines3/common/monitor.py	/^    def get_episode_rewards(self) -> List[float]:$/;"	m	class:Monitor
+get_episode_times	stable_baselines3/common/monitor.py	/^    def get_episode_times(self) -> List[float]:$/;"	m	class:Monitor
+get_flattened_obs_dim	stable_baselines3/common/preprocessing.py	/^def get_flattened_obs_dim(observation_space: spaces.Space) -> int:$/;"	f
+get_images	stable_baselines3/common/vec_env/base_vec_env.py	/^    def get_images(self) -> Sequence[np.ndarray]:$/;"	m	class:VecEnv
+get_images	stable_baselines3/common/vec_env/base_vec_env.py	/^    def get_images(self) -> Sequence[np.ndarray]:$/;"	m	class:VecEnvWrapper
+get_images	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def get_images(self) -> Sequence[np.ndarray]:$/;"	m	class:DummyVecEnv
+get_images	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def get_images(self) -> Sequence[np.ndarray]:$/;"	m	class:SubprocVecEnv
+get_latest_run_id	stable_baselines3/common/utils.py	/^def get_latest_run_id(log_path: Optional[str] = None, log_name: str = "") -> int:$/;"	f
+get_level	stable_baselines3/common/logger.py	/^def get_level() -> int:$/;"	f
+get_linear_fn	stable_baselines3/common/utils.py	/^def get_linear_fn(start: float, end: float, end_fraction: float) -> Callable:$/;"	f
+get_log_dict	stable_baselines3/common/logger.py	/^def get_log_dict() -> Dict:$/;"	f
+get_monitor_files	stable_baselines3/common/monitor.py	/^def get_monitor_files(path: str) -> List[str]:$/;"	f
+get_noise	stable_baselines3/common/distributions.py	/^    def get_noise(self, latent_sde: th.Tensor) -> th.Tensor:$/;"	m	class:StateDependentNoiseDistribution
+get_obs_shape	stable_baselines3/common/preprocessing.py	/^def get_obs_shape(observation_space: spaces.Space) -> Tuple[int, ...]:$/;"	f
+get_original_obs	stable_baselines3/common/vec_env/vec_normalize.py	/^    def get_original_obs(self) -> Union[np.ndarray, Dict[str, np.ndarray]]:$/;"	m	class:VecNormalize
+get_original_reward	stable_baselines3/common/vec_env/vec_normalize.py	/^    def get_original_reward(self) -> np.ndarray:$/;"	m	class:VecNormalize
+get_parameters	stable_baselines3/common/base_class.py	/^    def get_parameters(self) -> Dict[str, Dict]:$/;"	m	class:BaseAlgorithm
+get_policy_from_name	stable_baselines3/common/policies.py	/^def get_policy_from_name(base_policy_type: Type[BasePolicy], name: str) -> Type[BasePolicy]:$/;"	f
+get_schedule_fn	stable_baselines3/common/utils.py	/^def get_schedule_fn(value_schedule: Union[Callable, float]) -> Callable:$/;"	f
+get_std	stable_baselines3/common/distributions.py	/^    def get_std(self, log_std: th.Tensor) -> th.Tensor:$/;"	m	class:StateDependentNoiseDistribution
+get_std	stable_baselines3/sac/policies.py	/^    def get_std(self) -> th.Tensor:$/;"	m	class:Actor
+get_time_limit	stable_baselines3/her/her.py	/^def get_time_limit(env: VecEnv, current_max_episode_length: Optional[int]) -> int:$/;"	f
+get_total_steps	stable_baselines3/common/monitor.py	/^    def get_total_steps(self) -> int:$/;"	m	class:Monitor
+get_vec_normalize_env	stable_baselines3/common/base_class.py	/^    def get_vec_normalize_env(self) -> Optional[VecNormalize]:$/;"	m	class:BaseAlgorithm
+getattr_depth_check	stable_baselines3/common/vec_env/base_vec_env.py	/^    def getattr_depth_check(self, name: str, already_found: bool) -> Optional[str]:$/;"	m	class:VecEnv
+getattr_depth_check	stable_baselines3/common/vec_env/base_vec_env.py	/^    def getattr_depth_check(self, name: str, already_found: bool) -> str:$/;"	m	class:VecEnvWrapper
+getattr_recursive	stable_baselines3/common/vec_env/base_vec_env.py	/^    def getattr_recursive(self, name: str) -> Any:$/;"	m	class:VecEnvWrapper
+help	docs/make.bat	/^:help$/;"	l
+html_logo	docs/conf.py	/^html_logo = "_static\/img\/logo.png"$/;"	v
+html_static_path	docs/conf.py	/^html_static_path = ["_static"]$/;"	v
+html_theme	docs/conf.py	/^    html_theme = "default"$/;"	v
+html_theme	docs/conf.py	/^    html_theme = "sphinx_rtd_theme"$/;"	v
+htmlhelp_basename	docs/conf.py	/^htmlhelp_basename = "StableBaselines3doc"$/;"	v
+info	stable_baselines3/common/logger.py	/^def info(*args) -> None:$/;"	f
+init_callback	stable_baselines3/common/callbacks.py	/^    def init_callback(self, model: "base_class.BaseAlgorithm") -> None:$/;"	m	class:BaseCallback
+init_callback	stable_baselines3/common/callbacks.py	/^    def init_callback(self, model: "base_class.BaseAlgorithm") -> None:$/;"	m	class:EventCallback
+init_weights	stable_baselines3/common/policies.py	/^    def init_weights(module: nn.Module, gain: float = 1) -> None:$/;"	m	class:BasePolicy
+install_requires	setup.py	/^    install_requires=[$/;"	v
+inverse	stable_baselines3/common/distributions.py	/^    def inverse(y: th.Tensor) -> th.Tensor:$/;"	m	class:TanhBijector
+is_excluded	stable_baselines3/common/logger.py	/^    def is_excluded(key: str) -> bool:$/;"	f	function:filter_excluded_keys
+is_image_space	stable_baselines3/common/preprocessing.py	/^def is_image_space(observation_space: spaces.Space, channels_last: bool = True, check_channels: bool = False) -> bool:$/;"	f
+is_image_space_channels_first	stable_baselines3/common/preprocessing.py	/^def is_image_space_channels_first(observation_space: spaces.Box) -> bool:$/;"	f
+is_json_serializable	stable_baselines3/common/save_util.py	/^def is_json_serializable(item: Any) -> bool:$/;"	f
+is_moviepy_installed	tests/test_logger.py	/^def is_moviepy_installed():$/;"	f
+is_vectorized_observation	stable_baselines3/common/utils.py	/^def is_vectorized_observation(observation: np.ndarray, observation_space: gym.spaces.Space) -> bool:$/;"	f
+is_wrapped	stable_baselines3/common/vec_env/__init__.py	/^def is_wrapped(env: Union["GymEnv", VecEnv], vec_wrapper_class: Type[VecEnvWrapper]) -> bool:$/;"	f
+json_to_data	stable_baselines3/common/save_util.py	/^def json_to_data(json_string: str, custom_objects: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:$/;"	f
+keywords	setup.py	/^    keywords="reinforcement-learning-algorithms reinforcement-learning machine-learning "$/;"	v
+language	docs/conf.py	/^language = None$/;"	v
+latex_documents	docs/conf.py	/^latex_documents = [$/;"	v
+latex_elements	docs/conf.py	/^latex_elements = {$/;"	v
+learn	stable_baselines3/a2c/a2c.py	/^    def learn($/;"	m	class:A2C
+learn	stable_baselines3/common/base_class.py	/^    def learn($/;"	m	class:BaseAlgorithm
+learn	stable_baselines3/common/off_policy_algorithm.py	/^    def learn($/;"	m	class:OffPolicyAlgorithm
+learn	stable_baselines3/common/on_policy_algorithm.py	/^    def learn($/;"	m	class:OnPolicyAlgorithm
+learn	stable_baselines3/ddpg/ddpg.py	/^    def learn($/;"	m	class:DDPG
+learn	stable_baselines3/dqn/dqn.py	/^    def learn($/;"	m	class:DQN
+learn	stable_baselines3/her/her.py	/^    def learn($/;"	m	class:HER
+learn	stable_baselines3/ppo/ppo.py	/^    def learn($/;"	m	class:PPO
+learn	stable_baselines3/sac/sac.py	/^    def learn($/;"	m	class:SAC
+learn	stable_baselines3/td3/td3.py	/^    def learn($/;"	m	class:TD3
+license	setup.py	/^    license="MIT",$/;"	v
+load	stable_baselines3/common/base_class.py	/^    def load($/;"	m	class:BaseAlgorithm
+load	stable_baselines3/common/policies.py	/^    def load(cls, path: str, device: Union[th.device, str] = "auto") -> "BaseModel":$/;"	m	class:BaseModel
+load	stable_baselines3/common/vec_env/vec_normalize.py	/^    def load(load_path: str, venv: VecEnv) -> "VecNormalize":$/;"	m	class:VecNormalize
+load	stable_baselines3/her/her.py	/^    def load($/;"	m	class:HER
+load_from_pkl	stable_baselines3/common/save_util.py	/^def load_from_pkl(path: Union[str, pathlib.Path, io.BufferedIOBase], verbose: int = 0) -> Any:$/;"	f
+load_from_vector	stable_baselines3/common/policies.py	/^    def load_from_vector(self, vector: np.ndarray) -> None:$/;"	m	class:BaseModel
+load_from_zip_file	stable_baselines3/common/save_util.py	/^def load_from_zip_file($/;"	f
+load_replay_buffer	stable_baselines3/common/off_policy_algorithm.py	/^    def load_replay_buffer(self, path: Union[str, pathlib.Path, io.BufferedIOBase]) -> None:$/;"	m	class:OffPolicyAlgorithm
+load_replay_buffer	stable_baselines3/her/her.py	/^    def load_replay_buffer($/;"	m	class:HER
+load_results	stable_baselines3/common/monitor.py	/^def load_results(path: str) -> pandas.DataFrame:$/;"	f
+log	stable_baselines3/common/logger.py	/^    def log(self, *args, level: int = INFO) -> None:$/;"	m	class:Logger
+log	stable_baselines3/common/logger.py	/^def log(*args, level: int = INFO) -> None:$/;"	f
+log_prob	stable_baselines3/common/distributions.py	/^    def log_prob(self, actions: th.Tensor) -> th.Tensor:$/;"	m	class:BernoulliDistribution
+log_prob	stable_baselines3/common/distributions.py	/^    def log_prob(self, actions: th.Tensor) -> th.Tensor:$/;"	m	class:CategoricalDistribution
+log_prob	stable_baselines3/common/distributions.py	/^    def log_prob(self, actions: th.Tensor) -> th.Tensor:$/;"	m	class:DiagGaussianDistribution
+log_prob	stable_baselines3/common/distributions.py	/^    def log_prob(self, actions: th.Tensor) -> th.Tensor:$/;"	m	class:MultiCategoricalDistribution
+log_prob	stable_baselines3/common/distributions.py	/^    def log_prob(self, actions: th.Tensor) -> th.Tensor:$/;"	m	class:StateDependentNoiseDistribution
+log_prob	stable_baselines3/common/distributions.py	/^    def log_prob(self, actions: th.Tensor, gaussian_actions: Optional[th.Tensor] = None) -> th.Tensor:$/;"	m	class:SquashedDiagGaussianDistribution
+log_prob	stable_baselines3/common/distributions.py	/^    def log_prob(self, x: th.Tensor) -> th.Tensor:$/;"	m	class:Distribution
+log_prob_correction	stable_baselines3/common/distributions.py	/^    def log_prob_correction(self, x: th.Tensor) -> th.Tensor:$/;"	m	class:TanhBijector
+log_prob_from_params	stable_baselines3/common/distributions.py	/^    def log_prob_from_params($/;"	m	class:StateDependentNoiseDistribution
+log_prob_from_params	stable_baselines3/common/distributions.py	/^    def log_prob_from_params(self, *args, **kwargs) -> Tuple[th.Tensor, th.Tensor]:$/;"	m	class:Distribution
+log_prob_from_params	stable_baselines3/common/distributions.py	/^    def log_prob_from_params(self, action_logits: th.Tensor) -> Tuple[th.Tensor, th.Tensor]:$/;"	m	class:BernoulliDistribution
+log_prob_from_params	stable_baselines3/common/distributions.py	/^    def log_prob_from_params(self, action_logits: th.Tensor) -> Tuple[th.Tensor, th.Tensor]:$/;"	m	class:CategoricalDistribution
+log_prob_from_params	stable_baselines3/common/distributions.py	/^    def log_prob_from_params(self, action_logits: th.Tensor) -> Tuple[th.Tensor, th.Tensor]:$/;"	m	class:MultiCategoricalDistribution
+log_prob_from_params	stable_baselines3/common/distributions.py	/^    def log_prob_from_params(self, mean_actions: th.Tensor, log_std: th.Tensor) -> Tuple[th.Tensor, th.Tensor]:$/;"	m	class:DiagGaussianDistribution
+log_prob_from_params	stable_baselines3/common/distributions.py	/^    def log_prob_from_params(self, mean_actions: th.Tensor, log_std: th.Tensor) -> Tuple[th.Tensor, th.Tensor]:$/;"	m	class:SquashedDiagGaussianDistribution
+long_description	setup.py	/^    long_description=long_description,$/;"	v
+long_description_content_type	setup.py	/^    long_description_content_type="text\/markdown",$/;"	v
+make_actor	stable_baselines3/sac/policies.py	/^    def make_actor(self, features_extractor: Optional[BaseFeaturesExtractor] = None) -> Actor:$/;"	m	class:SACPolicy
+make_actor	stable_baselines3/td3/policies.py	/^    def make_actor(self, features_extractor: Optional[BaseFeaturesExtractor] = None) -> Actor:$/;"	m	class:TD3Policy
+make_atari_env	stable_baselines3/common/env_util.py	/^def make_atari_env($/;"	f
+make_critic	stable_baselines3/sac/policies.py	/^    def make_critic(self, features_extractor: Optional[BaseFeaturesExtractor] = None) -> ContinuousCritic:$/;"	m	class:SACPolicy
+make_critic	stable_baselines3/td3/policies.py	/^    def make_critic(self, features_extractor: Optional[BaseFeaturesExtractor] = None) -> ContinuousCritic:$/;"	m	class:TD3Policy
+make_dict_env	tests/test_vec_normalize.py	/^def make_dict_env():$/;"	f
+make_env	stable_baselines3/common/env_util.py	/^    def make_env(rank):$/;"	f	function:make_vec_env
+make_env	tests/test_vec_envs.py	/^    def make_env():$/;"	f	function:check_vecenv_spaces
+make_env	tests/test_vec_envs.py	/^    def make_env():$/;"	f	function:test_vecenv_custom_calls
+make_env	tests/test_vec_envs.py	/^    def make_env():$/;"	f	function:test_vecenv_wrapper_getattr
+make_env	tests/test_vec_normalize.py	/^def make_env():$/;"	f
+make_features_extractor	stable_baselines3/common/policies.py	/^    def make_features_extractor(self) -> BaseFeaturesExtractor:$/;"	m	class:BaseModel
+make_image_env	tests/test_vec_envs.py	/^    def make_image_env():$/;"	f	function:test_framestack_vecenv
+make_non_image_env	tests/test_vec_envs.py	/^    def make_non_image_env():$/;"	f	function:test_framestack_vecenv
+make_output_format	stable_baselines3/common/logger.py	/^def make_output_format(_format: str, log_dir: str, log_suffix: str = "") -> KVWriter:$/;"	f
+make_proba_distribution	stable_baselines3/common/distributions.py	/^def make_proba_distribution($/;"	f
+make_q_net	stable_baselines3/dqn/policies.py	/^    def make_q_net(self) -> QNetwork:$/;"	m	class:DQNPolicy
+make_transposed_image_env	tests/test_vec_envs.py	/^    def make_transposed_image_env():$/;"	f	function:test_framestack_vecenv
+make_vec_env	stable_baselines3/common/env_util.py	/^def make_vec_env($/;"	f
+man_pages	docs/conf.py	/^man_pages = [(master_doc, "stablebaselines3", "Stable Baselines3 Documentation", [author], 1)]$/;"	v
+master_doc	docs/conf.py	/^master_doc = "index"$/;"	v
+maybe_make_env	stable_baselines3/common/base_class.py	/^def maybe_make_env(env: Union[GymEnv, str, None], monitor_wrapper: bool, verbose: int) -> Optional[GymEnv]:$/;"	f
+metadata	stable_baselines3/common/vec_env/base_vec_env.py	/^    metadata = {"render.modes": ["human", "rgb_array"]}$/;"	v	class:VecEnv
+metadata	tests/test_vec_check_nan.py	/^    metadata = {"render.modes": ["human"]}$/;"	v	class:NanAndInfEnv
+mode	stable_baselines3/common/distributions.py	/^    def mode(self) -> th.Tensor:$/;"	m	class:BernoulliDistribution
+mode	stable_baselines3/common/distributions.py	/^    def mode(self) -> th.Tensor:$/;"	m	class:CategoricalDistribution
+mode	stable_baselines3/common/distributions.py	/^    def mode(self) -> th.Tensor:$/;"	m	class:DiagGaussianDistribution
+mode	stable_baselines3/common/distributions.py	/^    def mode(self) -> th.Tensor:$/;"	m	class:Distribution
+mode	stable_baselines3/common/distributions.py	/^    def mode(self) -> th.Tensor:$/;"	m	class:MultiCategoricalDistribution
+mode	stable_baselines3/common/distributions.py	/^    def mode(self) -> th.Tensor:$/;"	m	class:SquashedDiagGaussianDistribution
+mode	stable_baselines3/common/distributions.py	/^    def mode(self) -> th.Tensor:$/;"	m	class:StateDependentNoiseDistribution
+n_episodes_stored	stable_baselines3/her/her_replay_buffer.py	/^    def n_episodes_stored(self) -> int:$/;"	m	class:HerReplayBuffer
+name	setup.py	/^    name="stable_baselines3",$/;"	v
+name_test	tests/test_vec_envs.py	/^    def name_test(self):$/;"	m	class:CustomWrapperB
+noises	stable_baselines3/common/noise.py	/^    def noises(self) -> List[ActionNoise]:$/;"	m	class:VectorizedActionNoise
+noises	stable_baselines3/common/noise.py	/^    def noises(self, noises: List[ActionNoise]) -> None:$/;"	m	class:VectorizedActionNoise
+normal_action_noise	tests/test_run.py	/^normal_action_noise = NormalActionNoise(np.zeros(1), 0.1 * np.ones(1))$/;"	v
+normalize_obs	stable_baselines3/common/vec_env/vec_normalize.py	/^    def normalize_obs(self, obs: Union[np.ndarray, Dict[str, np.ndarray]]) -> Union[np.ndarray, Dict[str, np.ndarray]]:$/;"	m	class:VecNormalize
+normalize_reward	stable_baselines3/common/vec_env/vec_normalize.py	/^    def normalize_reward(self, reward: np.ndarray) -> np.ndarray:$/;"	m	class:VecNormalize
+obs_assert	tests/test_vec_envs.py	/^    def obs_assert(obs):$/;"	f	function:test_subproc_start_method
+obs_assert	tests/test_vec_envs.py	/^    def obs_assert(obs):$/;"	f	function:test_vecenv_dict_spaces
+obs_assert	tests/test_vec_envs.py	/^    def obs_assert(obs):$/;"	f	function:test_vecenv_single_space
+obs_assert	tests/test_vec_envs.py	/^    def obs_assert(obs):$/;"	f	function:test_vecenv_tuple_spaces
+obs_space_info	stable_baselines3/common/vec_env/util.py	/^def obs_space_info(obs_space: gym.spaces.Space) -> Tuple[List[str], Dict[Any, Tuple[int, ...]], Dict[Any, np.dtype]]:$/;"	f
+observation	stable_baselines3/common/atari_wrappers.py	/^    def observation(self, frame: np.ndarray) -> np.ndarray:$/;"	m	class:WarpFrame
+observation_space	tests/test_env_checker.py	/^    observation_space = Box(low=-1.0, high=2.0, shape=(3,), dtype=np.float32)$/;"	v	class:ActionDictTestEnv
+on_rollout_end	stable_baselines3/common/callbacks.py	/^    def on_rollout_end(self) -> None:$/;"	m	class:BaseCallback
+on_rollout_start	stable_baselines3/common/callbacks.py	/^    def on_rollout_start(self) -> None:$/;"	m	class:BaseCallback
+on_rtd	docs/conf.py	/^on_rtd = os.environ.get("READTHEDOCS") == "True"$/;"	v
+on_step	stable_baselines3/common/callbacks.py	/^    def on_step(self) -> bool:$/;"	m	class:BaseCallback
+on_training_end	stable_baselines3/common/callbacks.py	/^    def on_training_end(self) -> None:$/;"	m	class:BaseCallback
+on_training_start	stable_baselines3/common/callbacks.py	/^    def on_training_start(self, locals_: Dict[str, Any], globals_: Dict[str, Any]) -> None:$/;"	m	class:BaseCallback
+open_path	stable_baselines3/common/save_util.py	/^def open_path(path: Union[str, pathlib.Path, io.BufferedIOBase], mode: str, verbose: int = 0, suffix: Optional[str] = None):$/;"	f
+open_path_pathlib	stable_baselines3/common/save_util.py	/^def open_path_pathlib(path: pathlib.Path, mode: str, verbose: int = 0, suffix: Optional[str] = None) -> io.BufferedIOBase:$/;"	f
+open_path_str	stable_baselines3/common/save_util.py	/^def open_path_str(path: str, mode: str, verbose: int = 0, suffix: Optional[str] = None) -> io.BufferedIOBase:$/;"	f
+package_data	setup.py	/^    package_data={"stable_baselines3": ["py.typed", "version.txt"]},$/;"	v
+packages	setup.py	/^    packages=[package for package in find_packages() if package.startswith("stable_baselines3")],$/;"	v
+parameters_to_vector	stable_baselines3/common/policies.py	/^    def parameters_to_vector(self) -> np.ndarray:$/;"	m	class:BaseModel
+params_should_differ	tests/test_cnn.py	/^def params_should_differ(params, other_params):$/;"	f
+params_should_match	tests/test_cnn.py	/^def params_should_match(params, other_params):$/;"	f
+patch_dqn_names_	tests/test_cnn.py	/^def patch_dqn_names_(model):$/;"	f
+patched_step	tests/test_envs.py	/^    def patched_step(_action):$/;"	f	function:test_high_dimension_action_space
+patched_step	tests/test_envs.py	/^    def patched_step(_action):$/;"	f	function:test_non_default_spaces
+plot_curves	stable_baselines3/common/results_plotter.py	/^def plot_curves($/;"	f
+plot_results	stable_baselines3/common/results_plotter.py	/^def plot_results($/;"	f
+polyak_update	stable_baselines3/common/utils.py	/^def polyak_update(params: Iterable[th.nn.Parameter], target_params: Iterable[th.nn.Parameter], tau: float) -> None:$/;"	f
+predict	stable_baselines3/common/base_class.py	/^    def predict($/;"	m	class:BaseAlgorithm
+predict	stable_baselines3/common/policies.py	/^    def predict($/;"	m	class:BasePolicy
+predict	stable_baselines3/dqn/dqn.py	/^    def predict($/;"	m	class:DQN
+predict	stable_baselines3/her/her.py	/^    def predict($/;"	m	class:HER
+preprocess_obs	stable_baselines3/common/preprocessing.py	/^def preprocess_obs(obs: th.Tensor, observation_space: spaces.Space, normalize_images: bool = True) -> th.Tensor:$/;"	f
+proba_distribution	stable_baselines3/common/distributions.py	/^    def proba_distribution($/;"	m	class:StateDependentNoiseDistribution
+proba_distribution	stable_baselines3/common/distributions.py	/^    def proba_distribution(self, *args, **kwargs) -> "Distribution":$/;"	m	class:Distribution
+proba_distribution	stable_baselines3/common/distributions.py	/^    def proba_distribution(self, action_logits: th.Tensor) -> "BernoulliDistribution":$/;"	m	class:BernoulliDistribution
+proba_distribution	stable_baselines3/common/distributions.py	/^    def proba_distribution(self, action_logits: th.Tensor) -> "CategoricalDistribution":$/;"	m	class:CategoricalDistribution
+proba_distribution	stable_baselines3/common/distributions.py	/^    def proba_distribution(self, action_logits: th.Tensor) -> "MultiCategoricalDistribution":$/;"	m	class:MultiCategoricalDistribution
+proba_distribution	stable_baselines3/common/distributions.py	/^    def proba_distribution(self, mean_actions: th.Tensor, log_std: th.Tensor) -> "DiagGaussianDistribution":$/;"	m	class:DiagGaussianDistribution
+proba_distribution	stable_baselines3/common/distributions.py	/^    def proba_distribution(self, mean_actions: th.Tensor, log_std: th.Tensor) -> "SquashedDiagGaussianDistribution":$/;"	m	class:SquashedDiagGaussianDistribution
+proba_distribution_net	stable_baselines3/common/distributions.py	/^    def proba_distribution_net($/;"	m	class:StateDependentNoiseDistribution
+proba_distribution_net	stable_baselines3/common/distributions.py	/^    def proba_distribution_net(self, *args, **kwargs) -> Union[nn.Module, Tuple[nn.Module, nn.Parameter]]:$/;"	m	class:Distribution
+proba_distribution_net	stable_baselines3/common/distributions.py	/^    def proba_distribution_net(self, latent_dim: int) -> nn.Module:$/;"	m	class:BernoulliDistribution
+proba_distribution_net	stable_baselines3/common/distributions.py	/^    def proba_distribution_net(self, latent_dim: int) -> nn.Module:$/;"	m	class:CategoricalDistribution
+proba_distribution_net	stable_baselines3/common/distributions.py	/^    def proba_distribution_net(self, latent_dim: int) -> nn.Module:$/;"	m	class:MultiCategoricalDistribution
+proba_distribution_net	stable_baselines3/common/distributions.py	/^    def proba_distribution_net(self, latent_dim: int, log_std_init: float = 0.0) -> Tuple[nn.Module, nn.Parameter]:$/;"	m	class:DiagGaussianDistribution
+project	docs/conf.py	/^project = "Stable Baselines3"$/;"	v
+psutil	stable_baselines3/common/buffers.py	/^    psutil = None$/;"	v
+pygments_style	docs/conf.py	/^pygments_style = "sphinx"$/;"	v
+q1_forward	stable_baselines3/common/policies.py	/^    def q1_forward(self, obs: th.Tensor, actions: th.Tensor) -> th.Tensor:$/;"	m	class:ContinuousCritic
+read_csv	stable_baselines3/common/logger.py	/^def read_csv(filename: str) -> pandas.DataFrame:$/;"	f
+read_fn	tests/test_logger.py	/^    def read_fn(_format):$/;"	f	function:read_log
+read_json	stable_baselines3/common/logger.py	/^def read_json(filename: str) -> pandas.DataFrame:$/;"	f
+read_log	tests/test_logger.py	/^def read_log(tmp_path, capsys):$/;"	f
+record	stable_baselines3/common/logger.py	/^    def record(self, key: str, value: Any, exclude: Optional[Union[str, Tuple[str, ...]]] = None) -> None:$/;"	m	class:Logger
+record	stable_baselines3/common/logger.py	/^def record(key: str, value: Any, exclude: Optional[Union[str, Tuple[str, ...]]] = None) -> None:$/;"	f
+record_dict	stable_baselines3/common/logger.py	/^def record_dict(key_values: Dict[str, Any]) -> None:$/;"	f
+record_mean	stable_baselines3/common/logger.py	/^    def record_mean(self, key: str, value: Any, exclude: Optional[Union[str, Tuple[str, ...]]] = None) -> None:$/;"	m	class:Logger
+record_mean	stable_baselines3/common/logger.py	/^def record_mean(key: str, value: Union[int, float], exclude: Optional[Union[str, Tuple[str, ...]]] = None) -> None:$/;"	f
+record_tabular	stable_baselines3/common/logger.py	/^record_tabular = record$/;"	v
+recursive_getattr	stable_baselines3/common/save_util.py	/^def recursive_getattr(obj: Any, attr: str, *args) -> Any:$/;"	f
+recursive_setattr	stable_baselines3/common/save_util.py	/^def recursive_setattr(obj: Any, attr: str, val: Any) -> None:$/;"	f
+register_policy	stable_baselines3/common/policies.py	/^def register_policy(name: str, policy: Type[BasePolicy]) -> None:$/;"	f
+release	docs/conf.py	/^release = __version__$/;"	v
+render	stable_baselines3/common/bit_flipping_env.py	/^    def render(self, mode: str = "human") -> Optional[np.ndarray]:$/;"	m	class:BitFlippingEnv
+render	stable_baselines3/common/identity_env.py	/^    def render(self, mode: str = "human") -> None:$/;"	m	class:FakeImageEnv
+render	stable_baselines3/common/identity_env.py	/^    def render(self, mode: str = "human") -> None:$/;"	m	class:IdentityEnv
+render	stable_baselines3/common/vec_env/base_vec_env.py	/^    def render(self, mode: str = "human") -> Optional[np.ndarray]:$/;"	m	class:VecEnv
+render	stable_baselines3/common/vec_env/base_vec_env.py	/^    def render(self, mode: str = "human") -> Optional[np.ndarray]:$/;"	m	class:VecEnvWrapper
+render	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def render(self, mode: str = "human") -> Optional[np.ndarray]:$/;"	m	class:DummyVecEnv
+render	tests/test_env_checker.py	/^    def render(self, mode="human"):$/;"	m	class:ActionDictTestEnv
+render	tests/test_vec_check_nan.py	/^    def render(self, mode="human", close=False):$/;"	m	class:NanAndInfEnv
+render	tests/test_vec_envs.py	/^    def render(self, mode="human"):$/;"	m	class:CustomGymEnv
+reset	stable_baselines3/common/atari_wrappers.py	/^    def reset(self, **kwargs) -> GymObs:$/;"	m	class:MaxAndSkipEnv
+reset	stable_baselines3/common/atari_wrappers.py	/^    def reset(self, **kwargs) -> np.ndarray:$/;"	m	class:EpisodicLifeEnv
+reset	stable_baselines3/common/atari_wrappers.py	/^    def reset(self, **kwargs) -> np.ndarray:$/;"	m	class:FireResetEnv
+reset	stable_baselines3/common/atari_wrappers.py	/^    def reset(self, **kwargs) -> np.ndarray:$/;"	m	class:NoopResetEnv
+reset	stable_baselines3/common/bit_flipping_env.py	/^    def reset(self) -> Dict[str, Union[int, np.ndarray]]:$/;"	m	class:BitFlippingEnv
+reset	stable_baselines3/common/buffers.py	/^    def reset(self) -> None:$/;"	m	class:BaseBuffer
+reset	stable_baselines3/common/buffers.py	/^    def reset(self) -> None:$/;"	m	class:RolloutBuffer
+reset	stable_baselines3/common/identity_env.py	/^    def reset(self) -> GymObs:$/;"	m	class:IdentityEnv
+reset	stable_baselines3/common/identity_env.py	/^    def reset(self) -> np.ndarray:$/;"	m	class:FakeImageEnv
+reset	stable_baselines3/common/logger.py	/^def reset() -> None:$/;"	f
+reset	stable_baselines3/common/monitor.py	/^    def reset(self, **kwargs) -> GymObs:$/;"	m	class:Monitor
+reset	stable_baselines3/common/noise.py	/^    def reset(self) -> None:$/;"	m	class:ActionNoise
+reset	stable_baselines3/common/noise.py	/^    def reset(self) -> None:$/;"	m	class:OrnsteinUhlenbeckActionNoise
+reset	stable_baselines3/common/noise.py	/^    def reset(self, indices: Optional[Iterable[int]] = None) -> None:$/;"	m	class:VectorizedActionNoise
+reset	stable_baselines3/common/vec_env/base_vec_env.py	/^    def reset(self) -> VecEnvObs:$/;"	m	class:VecEnv
+reset	stable_baselines3/common/vec_env/base_vec_env.py	/^    def reset(self) -> VecEnvObs:$/;"	m	class:VecEnvWrapper
+reset	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def reset(self) -> VecEnvObs:$/;"	m	class:DummyVecEnv
+reset	stable_baselines3/common/vec_env/obs_dict_wrapper.py	/^    def reset(self):$/;"	m	class:ObsDictWrapper
+reset	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def reset(self) -> VecEnvObs:$/;"	m	class:SubprocVecEnv
+reset	stable_baselines3/common/vec_env/vec_check_nan.py	/^    def reset(self) -> VecEnvObs:$/;"	m	class:VecCheckNan
+reset	stable_baselines3/common/vec_env/vec_frame_stack.py	/^    def reset(self) -> np.ndarray:$/;"	m	class:VecFrameStack
+reset	stable_baselines3/common/vec_env/vec_normalize.py	/^    def reset(self) -> Union[np.ndarray, Dict[str, np.ndarray]]:$/;"	m	class:VecNormalize
+reset	stable_baselines3/common/vec_env/vec_transpose.py	/^    def reset(self) -> np.ndarray:$/;"	m	class:VecTransposeImage
+reset	stable_baselines3/common/vec_env/vec_video_recorder.py	/^    def reset(self) -> VecEnvObs:$/;"	m	class:VecVideoRecorder
+reset	stable_baselines3/her/her_replay_buffer.py	/^    def reset(self) -> None:$/;"	m	class:HerReplayBuffer
+reset	tests/test_env_checker.py	/^    def reset(self):$/;"	m	class:ActionDictTestEnv
+reset	tests/test_spaces.py	/^    def reset(self):$/;"	m	class:DummyMultiBinary
+reset	tests/test_spaces.py	/^    def reset(self):$/;"	m	class:DummyMultiDiscreteSpace
+reset	tests/test_vec_check_nan.py	/^    def reset():$/;"	m	class:NanAndInfEnv
+reset	tests/test_vec_envs.py	/^    def reset(self):$/;"	m	class:CustomGymEnv
+reset	tests/test_vec_envs.py	/^    def reset(self):$/;"	m	class:StepEnv
+reset	tests/test_vec_normalize.py	/^    def reset(self):$/;"	m	class:DummyDictEnv
+reset_noise	stable_baselines3/common/policies.py	/^    def reset_noise(self, n_envs: int = 1) -> None:$/;"	m	class:ActorCriticPolicy
+reset_noise	stable_baselines3/sac/policies.py	/^    def reset_noise(self, batch_size: int = 1) -> None:$/;"	m	class:Actor
+reset_noise	stable_baselines3/sac/policies.py	/^    def reset_noise(self, batch_size: int = 1) -> None:$/;"	m	class:SACPolicy
+reward	stable_baselines3/common/atari_wrappers.py	/^    def reward(self, reward: float) -> float:$/;"	m	class:ClipRewardEnv
+rolling_window	stable_baselines3/common/results_plotter.py	/^def rolling_window(array: np.ndarray, window: int) -> np.ndarray:$/;"	f
+safe_mean	stable_baselines3/common/utils.py	/^def safe_mean(arr: Union[np.ndarray, list, deque]) -> np.ndarray:$/;"	f
+sample	stable_baselines3/common/buffers.py	/^    def sample(self, batch_size: int, env: Optional[VecNormalize] = None) -> ReplayBufferSamples:$/;"	m	class:ReplayBuffer
+sample	stable_baselines3/common/buffers.py	/^    def sample(self, batch_size: int, env: Optional[VecNormalize] = None):$/;"	m	class:BaseBuffer
+sample	stable_baselines3/common/distributions.py	/^    def sample(self) -> th.Tensor:$/;"	m	class:BernoulliDistribution
+sample	stable_baselines3/common/distributions.py	/^    def sample(self) -> th.Tensor:$/;"	m	class:CategoricalDistribution
+sample	stable_baselines3/common/distributions.py	/^    def sample(self) -> th.Tensor:$/;"	m	class:DiagGaussianDistribution
+sample	stable_baselines3/common/distributions.py	/^    def sample(self) -> th.Tensor:$/;"	m	class:Distribution
+sample	stable_baselines3/common/distributions.py	/^    def sample(self) -> th.Tensor:$/;"	m	class:MultiCategoricalDistribution
+sample	stable_baselines3/common/distributions.py	/^    def sample(self) -> th.Tensor:$/;"	m	class:SquashedDiagGaussianDistribution
+sample	stable_baselines3/common/distributions.py	/^    def sample(self) -> th.Tensor:$/;"	m	class:StateDependentNoiseDistribution
+sample	stable_baselines3/her/her_replay_buffer.py	/^    def sample($/;"	m	class:HerReplayBuffer
+sample	tests/test_vec_envs.py	/^    def sample(self):$/;"	m	class:_UnorderedDictSpace
+sample_goals	stable_baselines3/her/her_replay_buffer.py	/^    def sample_goals($/;"	m	class:HerReplayBuffer
+sample_offline	stable_baselines3/her/her_replay_buffer.py	/^    def sample_offline($/;"	m	class:HerReplayBuffer
+sample_weights	stable_baselines3/common/distributions.py	/^    def sample_weights(self, log_std: th.Tensor, batch_size: int = 1) -> None:$/;"	m	class:StateDependentNoiseDistribution
+save	stable_baselines3/common/base_class.py	/^    def save($/;"	m	class:BaseAlgorithm
+save	stable_baselines3/common/policies.py	/^    def save(self, path: str) -> None:$/;"	m	class:BaseModel
+save	stable_baselines3/common/vec_env/vec_normalize.py	/^    def save(self, save_path: str) -> None:$/;"	m	class:VecNormalize
+save	stable_baselines3/her/her.py	/^    def save($/;"	m	class:HER
+save_replay_buffer	stable_baselines3/common/off_policy_algorithm.py	/^    def save_replay_buffer(self, path: Union[str, pathlib.Path, io.BufferedIOBase]) -> None:$/;"	m	class:OffPolicyAlgorithm
+save_to_pkl	stable_baselines3/common/save_util.py	/^def save_to_pkl(path: Union[str, pathlib.Path, io.BufferedIOBase], obj: Any, verbose: int = 0) -> None:$/;"	f
+save_to_zip_file	stable_baselines3/common/save_util.py	/^def save_to_zip_file($/;"	f
+scale_action	stable_baselines3/common/policies.py	/^    def scale_action(self, action: np.ndarray) -> np.ndarray:$/;"	m	class:BasePolicy
+seed	stable_baselines3/common/bit_flipping_env.py	/^    def seed(self, seed: int) -> None:$/;"	m	class:BitFlippingEnv
+seed	stable_baselines3/common/vec_env/base_vec_env.py	/^    def seed(self, seed: Optional[int] = None) -> List[Union[None, int]]:$/;"	m	class:VecEnv
+seed	stable_baselines3/common/vec_env/base_vec_env.py	/^    def seed(self, seed: Optional[int] = None) -> List[Union[None, int]]:$/;"	m	class:VecEnvWrapper
+seed	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def seed(self, seed: Optional[int] = None) -> List[Union[None, int]]:$/;"	m	class:DummyVecEnv
+seed	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def seed(self, seed: Optional[int] = None) -> List[Union[None, int]]:$/;"	m	class:SubprocVecEnv
+seed	tests/test_vec_envs.py	/^    def seed(self, seed=None):$/;"	m	class:CustomGymEnv
+select_env	tests/test_callbacks.py	/^def select_env(model_class) -> str:$/;"	f
+select_env	tests/test_save_load.py	/^def select_env(model_class: BaseAlgorithm) -> gym.Env:$/;"	f
+set_attr	stable_baselines3/common/vec_env/base_vec_env.py	/^    def set_attr(self, attr_name: str, value: Any, indices: VecEnvIndices = None) -> None:$/;"	m	class:VecEnv
+set_attr	stable_baselines3/common/vec_env/base_vec_env.py	/^    def set_attr(self, attr_name: str, value: Any, indices: VecEnvIndices = None) -> None:$/;"	m	class:VecEnvWrapper
+set_attr	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def set_attr(self, attr_name: str, value: Any, indices: VecEnvIndices = None) -> None:$/;"	m	class:DummyVecEnv
+set_attr	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def set_attr(self, attr_name: str, value: Any, indices: VecEnvIndices = None) -> None:$/;"	m	class:SubprocVecEnv
+set_env	stable_baselines3/common/base_class.py	/^    def set_env(self, env: GymEnv) -> None:$/;"	m	class:BaseAlgorithm
+set_env	stable_baselines3/her/her_replay_buffer.py	/^    def set_env(self, env: ObsDictWrapper) -> None:$/;"	m	class:HerReplayBuffer
+set_level	stable_baselines3/common/logger.py	/^    def set_level(self, level: int) -> None:$/;"	m	class:Logger
+set_level	stable_baselines3/common/logger.py	/^def set_level(level: int) -> None:$/;"	f
+set_parameters	stable_baselines3/common/base_class.py	/^    def set_parameters($/;"	m	class:BaseAlgorithm
+set_random_seed	stable_baselines3/common/base_class.py	/^    def set_random_seed(self, seed: Optional[int] = None) -> None:$/;"	m	class:BaseAlgorithm
+set_random_seed	stable_baselines3/common/utils.py	/^def set_random_seed(seed: int, using_cuda: bool = False) -> None:$/;"	f
+set_venv	stable_baselines3/common/vec_env/vec_normalize.py	/^    def set_venv(self, venv: VecEnv) -> None:$/;"	m	class:VecNormalize
+setup	docs/conf.py	/^def setup(app):$/;"	f
+size	stable_baselines3/common/buffers.py	/^    def size(self) -> int:$/;"	m	class:BaseBuffer
+size	stable_baselines3/her/her_replay_buffer.py	/^    def size(self) -> int:$/;"	m	class:HerReplayBuffer
+source_suffix	docs/conf.py	/^source_suffix = ".rst"$/;"	v
+spec	stable_baselines3/common/bit_flipping_env.py	/^    spec = EnvSpec("BitFlippingEnv-v0")$/;"	v	class:BitFlippingEnv
+squash_output	stable_baselines3/common/policies.py	/^    def squash_output(self) -> bool:$/;"	m	class:BasePolicy
+start_video_recorder	stable_baselines3/common/vec_env/vec_video_recorder.py	/^    def start_video_recorder(self) -> None:$/;"	m	class:VecVideoRecorder
+step	stable_baselines3/common/atari_wrappers.py	/^    def step(self, action: int) -> GymStepReturn:$/;"	m	class:EpisodicLifeEnv
+step	stable_baselines3/common/atari_wrappers.py	/^    def step(self, action: int) -> GymStepReturn:$/;"	m	class:MaxAndSkipEnv
+step	stable_baselines3/common/bit_flipping_env.py	/^    def step(self, action: Union[np.ndarray, int]) -> GymStepReturn:$/;"	m	class:BitFlippingEnv
+step	stable_baselines3/common/identity_env.py	/^    def step(self, action: Union[int, np.ndarray]) -> GymStepReturn:$/;"	m	class:IdentityEnv
+step	stable_baselines3/common/identity_env.py	/^    def step(self, action: Union[np.ndarray, int]) -> GymStepReturn:$/;"	m	class:FakeImageEnv
+step	stable_baselines3/common/identity_env.py	/^    def step(self, action: np.ndarray) -> GymStepReturn:$/;"	m	class:IdentityEnvBox
+step	stable_baselines3/common/monitor.py	/^    def step(self, action: Union[np.ndarray, int]) -> GymStepReturn:$/;"	m	class:Monitor
+step	stable_baselines3/common/sb2_compat/rmsprop_tf_like.py	/^    def step(self, closure: Optional[Callable] = None) -> Optional[torch.Tensor]:$/;"	m	class:RMSpropTFLike
+step	stable_baselines3/common/vec_env/base_vec_env.py	/^    def step(self, actions: np.ndarray) -> VecEnvStepReturn:$/;"	m	class:VecEnv
+step	tests/test_env_checker.py	/^    def step(self, action):$/;"	m	class:ActionDictTestEnv
+step	tests/test_spaces.py	/^    def step(self, action):$/;"	m	class:DummyMultiBinary
+step	tests/test_spaces.py	/^    def step(self, action):$/;"	m	class:DummyMultiDiscreteSpace
+step	tests/test_vec_check_nan.py	/^    def step(action):$/;"	m	class:NanAndInfEnv
+step	tests/test_vec_envs.py	/^    def step(self, action):$/;"	m	class:CustomGymEnv
+step	tests/test_vec_envs.py	/^    def step(self, action):$/;"	m	class:StepEnv
+step	tests/test_vec_normalize.py	/^    def step(self, action):$/;"	m	class:DummyDictEnv
+step_async	stable_baselines3/common/vec_env/base_vec_env.py	/^    def step_async(self, actions: np.ndarray) -> None:$/;"	m	class:VecEnv
+step_async	stable_baselines3/common/vec_env/base_vec_env.py	/^    def step_async(self, actions: np.ndarray) -> None:$/;"	m	class:VecEnvWrapper
+step_async	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def step_async(self, actions: np.ndarray) -> None:$/;"	m	class:DummyVecEnv
+step_async	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def step_async(self, actions: np.ndarray) -> None:$/;"	m	class:SubprocVecEnv
+step_async	stable_baselines3/common/vec_env/vec_check_nan.py	/^    def step_async(self, actions: np.ndarray) -> None:$/;"	m	class:VecCheckNan
+step_wait	stable_baselines3/common/vec_env/base_vec_env.py	/^    def step_wait(self) -> VecEnvStepReturn:$/;"	m	class:VecEnv
+step_wait	stable_baselines3/common/vec_env/base_vec_env.py	/^    def step_wait(self) -> VecEnvStepReturn:$/;"	m	class:VecEnvWrapper
+step_wait	stable_baselines3/common/vec_env/dummy_vec_env.py	/^    def step_wait(self) -> VecEnvStepReturn:$/;"	m	class:DummyVecEnv
+step_wait	stable_baselines3/common/vec_env/obs_dict_wrapper.py	/^    def step_wait(self):$/;"	m	class:ObsDictWrapper
+step_wait	stable_baselines3/common/vec_env/subproc_vec_env.py	/^    def step_wait(self) -> VecEnvStepReturn:$/;"	m	class:SubprocVecEnv
+step_wait	stable_baselines3/common/vec_env/vec_check_nan.py	/^    def step_wait(self) -> VecEnvStepReturn:$/;"	m	class:VecCheckNan
+step_wait	stable_baselines3/common/vec_env/vec_frame_stack.py	/^    def step_wait(self) -> Tuple[np.ndarray, np.ndarray, np.ndarray, List[Dict[str, Any]]]:$/;"	m	class:VecFrameStack
+step_wait	stable_baselines3/common/vec_env/vec_normalize.py	/^    def step_wait(self) -> VecEnvStepReturn:$/;"	m	class:VecNormalize
+step_wait	stable_baselines3/common/vec_env/vec_transpose.py	/^    def step_wait(self) -> VecEnvStepReturn:$/;"	m	class:VecTransposeImage
+step_wait	stable_baselines3/common/vec_env/vec_video_recorder.py	/^    def step_wait(self) -> VecEnvStepReturn:$/;"	m	class:VecVideoRecorder
+store_episode	stable_baselines3/her/her_replay_buffer.py	/^    def store_episode(self) -> None:$/;"	m	class:HerReplayBuffer
+sum_independent_dims	stable_baselines3/common/distributions.py	/^def sum_independent_dims(tensor: th.Tensor) -> th.Tensor:$/;"	f
+swap_and_flatten	stable_baselines3/common/buffers.py	/^    def swap_and_flatten(arr: np.ndarray) -> np.ndarray:$/;"	m	class:BaseBuffer
+sync_envs_normalization	stable_baselines3/common/vec_env/__init__.py	/^def sync_envs_normalization(env: "GymEnv", eval_env: "GymEnv") -> None:$/;"	f
+templates_path	docs/conf.py	/^templates_path = ["_templates"]$/;"	v
+test_a2c	tests/test_run.py	/^def test_a2c(env_id):$/;"	f
+test_auto_wrap	tests/test_predict.py	/^def test_auto_wrap(model_class):$/;"	f
+test_bijector	tests/test_distributions.py	/^def test_bijector():$/;"	f
+test_callbacks	tests/test_callbacks.py	/^def test_callbacks(tmp_path, model_class):$/;"	f
+test_categorical	tests/test_distributions.py	/^def test_categorical(dist, CAT_ACTIONS):$/;"	f
+test_channel_first_env	tests/test_cnn.py	/^def test_channel_first_env(tmp_path):$/;"	f
+test_check_env_dict_action	tests/test_env_checker.py	/^def test_check_env_dict_action():$/;"	f
+test_check_nan	tests/test_vec_check_nan.py	/^def test_check_nan():$/;"	f
+test_cmd_util_rename	tests/test_utils.py	/^def test_cmd_util_rename():$/;"	f
+test_cnn	tests/test_cnn.py	/^def test_cnn(tmp_path, model_class):$/;"	f
+test_common_failures_reset	tests/test_envs.py	/^def test_common_failures_reset():$/;"	f
+test_common_failures_step	tests/test_envs.py	/^def test_common_failures_step():$/;"	f
+test_continuous	tests/test_identity.py	/^def test_continuous(model_class):$/;"	f
+test_custom_envs	tests/test_envs.py	/^def test_custom_envs(env_class):$/;"	f
+test_custom_offpolicy	tests/test_custom_policy.py	/^def test_custom_offpolicy(model_class, net_arch):$/;"	f
+test_custom_optimizer	tests/test_custom_policy.py	/^def test_custom_optimizer(model_class, optimizer_kwargs):$/;"	f
+test_custom_vec_env	tests/test_utils.py	/^def test_custom_vec_env(tmp_path):$/;"	f
+test_deterministic_pg	tests/test_run.py	/^def test_deterministic_pg(model_class, action_noise):$/;"	f
+test_deterministic_training_common	tests/test_deterministic.py	/^def test_deterministic_training_common(algo):$/;"	f
+test_discrete	tests/test_identity.py	/^def test_discrete(model_class, env):$/;"	f
+test_dqn	tests/test_run.py	/^def test_dqn():$/;"	f
+test_dqn_custom_policy	tests/test_custom_policy.py	/^def test_dqn_custom_policy():$/;"	f
+test_entropy	tests/test_distributions.py	/^def test_entropy(dist):$/;"	f
+test_env	tests/test_envs.py	/^def test_env(env_id):$/;"	f
+test_evaluate_policy	tests/test_utils.py	/^def test_evaluate_policy():$/;"	f
+test_exclude_include_saved_params	tests/test_save_load.py	/^def test_exclude_include_saved_params(tmp_path, model_class):$/;"	f
+test_exclude_keys	tests/test_logger.py	/^def test_exclude_keys(tmp_path, read_log, _format):$/;"	f
+test_features_extractor_target_net	tests/test_cnn.py	/^def test_features_extractor_target_net(model_class, share_features_extractor):$/;"	f
+test_flexible_mlp	tests/test_custom_policy.py	/^def test_flexible_mlp(model_class, net_arch):$/;"	f
+test_framestack_vecenv	tests/test_vec_envs.py	/^def test_framestack_vecenv():$/;"	f
+test_get_max_episode_length	tests/test_her.py	/^def test_get_max_episode_length():$/;"	f
+test_get_original	tests/test_vec_normalize.py	/^def test_get_original():$/;"	f
+test_get_original_dict	tests/test_vec_normalize.py	/^def test_get_original_dict():$/;"	f
+test_goal_selection_strategy	tests/test_her.py	/^def test_goal_selection_strategy(goal_selection_strategy, online_sampling):$/;"	f
+test_her	tests/test_her.py	/^def test_her(model_class, online_sampling):$/;"	f
+test_high_dimension_action_space	tests/test_envs.py	/^def test_high_dimension_action_space():$/;"	f
+test_identity_spaces	tests/test_spaces.py	/^def test_identity_spaces(model_class, env):$/;"	f
+test_image_space_checks	tests/test_cnn.py	/^def test_image_space_checks():$/;"	f
+test_main	tests/test_logger.py	/^def test_main(tmp_path):$/;"	f
+test_make_atari_env	tests/test_utils.py	/^def test_make_atari_env(env_id, n_envs, wrapper_kwargs):$/;"	f
+test_make_output	tests/test_logger.py	/^def test_make_output(tmp_path, read_log, _format):$/;"	f
+test_make_output_fail	tests/test_logger.py	/^def test_make_output_fail(tmp_path):$/;"	f
+test_make_vec_env	tests/test_utils.py	/^def test_make_vec_env(env_id, n_envs, vec_env_cls, wrapper_class):$/;"	f
+test_monitor	tests/test_monitor.py	/^def test_monitor(tmp_path):$/;"	f
+test_monitor_load_results	tests/test_monitor.py	/^def test_monitor_load_results(tmp_path):$/;"	f
+test_n_critics	tests/test_run.py	/^def test_n_critics(n_critics):$/;"	f
+test_non_default_spaces	tests/test_envs.py	/^def test_non_default_spaces(new_obs_space):$/;"	f
+test_normalize_external	tests/test_vec_normalize.py	/^def test_normalize_external():$/;"	f
+test_offpolicy_normalization	tests/test_vec_normalize.py	/^def test_offpolicy_normalization(model_class):$/;"	f
+test_open_file	tests/test_save_load.py	/^def test_open_file(tmp_path):$/;"	f
+test_open_file_str_pathlib	tests/test_save_load.py	/^def test_open_file_str_pathlib(tmp_path, pathtype):$/;"	f
+test_performance_her	tests/test_her.py	/^def test_performance_her(online_sampling, n_bits):$/;"	f
+test_polyak	tests/test_utils.py	/^def test_polyak():$/;"	f
+test_ppo	tests/test_run.py	/^def test_ppo(env_id, clip_range_vf):$/;"	f
+test_predict	tests/test_predict.py	/^def test_predict(model_class, env_id, device):$/;"	f
+test_report_video_to_tensorboard	tests/test_logger.py	/^def test_report_video_to_tensorboard(tmp_path, read_log, capsys):$/;"	f
+test_report_video_to_unsupported_format_raises_error	tests/test_logger.py	/^def test_report_video_to_unsupported_format_raises_error(tmp_path, unsupported_format):$/;"	f
+test_runningmeanstd	tests/test_vec_normalize.py	/^def test_runningmeanstd():$/;"	f
+test_sac	tests/test_run.py	/^def test_sac(ent_coef):$/;"	f
+test_save_load	tests/test_her.py	/^def test_save_load(tmp_path, model_class, use_sde, online_sampling):$/;"	f
+test_save_load	tests/test_save_load.py	/^def test_save_load(tmp_path, model_class):$/;"	f
+test_save_load_env_cnn	tests/test_save_load.py	/^def test_save_load_env_cnn(tmp_path, model_class):$/;"	f
+test_save_load_policy	tests/test_save_load.py	/^def test_save_load_policy(tmp_path, model_class, policy_str):$/;"	f
+test_save_load_replay_buffer	tests/test_her.py	/^def test_save_load_replay_buffer(tmp_path, recwarn, online_sampling, truncate_last_trajectory):$/;"	f
+test_save_load_replay_buffer	tests/test_save_load.py	/^def test_save_load_replay_buffer(tmp_path, model_class):$/;"	f
+test_sde_check	tests/test_sde.py	/^def test_sde_check():$/;"	f
+test_sde_distribution	tests/test_distributions.py	/^def test_sde_distribution():$/;"	f
+test_set_env	tests/test_save_load.py	/^def test_set_env(model_class):$/;"	f
+test_squashed_gaussian	tests/test_distributions.py	/^def test_squashed_gaussian(model_class):$/;"	f
+test_state_dependent_exploration_grad	tests/test_sde.py	/^def test_state_dependent_exploration_grad():$/;"	f
+test_state_dependent_offpolicy_noise	tests/test_sde.py	/^def test_state_dependent_offpolicy_noise(model_class, sde_net_arch, use_expln):$/;"	f
+test_subproc_start_method	tests/test_vec_envs.py	/^def test_subproc_start_method():$/;"	f
+test_sync_vec_normalize	tests/test_vec_normalize.py	/^def test_sync_vec_normalize(make_env):$/;"	f
+test_tensorboard	tests/test_tensorboard.py	/^def test_tensorboard(tmp_path, model_name):$/;"	f
+test_tf_like_rmsprop_optimizer	tests/test_custom_policy.py	/^def test_tf_like_rmsprop_optimizer():$/;"	f
+test_vec_env	tests/test_vec_normalize.py	/^def test_vec_env(tmp_path, make_env):$/;"	f
+test_vec_env_kwargs	tests/test_utils.py	/^def test_vec_env_kwargs():$/;"	f
+test_vec_noise	tests/test_utils.py	/^def test_vec_noise():$/;"	f
+test_vecenv_custom_calls	tests/test_vec_envs.py	/^def test_vecenv_custom_calls(vec_env_class, vec_env_wrapper):$/;"	f
+test_vecenv_dict_spaces	tests/test_vec_envs.py	/^def test_vecenv_dict_spaces(vec_env_class):$/;"	f
+test_vecenv_single_space	tests/test_vec_envs.py	/^def test_vecenv_single_space(vec_env_class, space):$/;"	f
+test_vecenv_terminal_obs	tests/test_vec_envs.py	/^def test_vecenv_terminal_obs(vec_env_class, vec_env_wrapper):$/;"	f
+test_vecenv_tuple_spaces	tests/test_vec_envs.py	/^def test_vecenv_tuple_spaces(vec_env_class):$/;"	f
+test_vecenv_wrapper_getattr	tests/test_vec_envs.py	/^def test_vecenv_wrapper_getattr():$/;"	f
+test_warn_buffer	tests/test_save_load.py	/^def test_warn_buffer(recwarn, model_class, optimize_memory_usage):$/;"	f
+test_zip_strict	tests/test_utils.py	/^def test_zip_strict():$/;"	f
+texinfo_documents	docs/conf.py	/^texinfo_documents = [$/;"	v
+tile_images	stable_baselines3/common/vec_env/base_vec_env.py	/^def tile_images(img_nhwc: Sequence[np.ndarray]) -> np.ndarray:  # pragma: no cover$/;"	f
+to_torch	stable_baselines3/common/buffers.py	/^    def to_torch(self, array: np.ndarray, copy: bool = True) -> th.Tensor:$/;"	m	class:BaseBuffer
+train	stable_baselines3/a2c/a2c.py	/^    def train(self) -> None:$/;"	m	class:A2C
+train	stable_baselines3/common/off_policy_algorithm.py	/^    def train(self, gradient_steps: int, batch_size: int) -> None:$/;"	m	class:OffPolicyAlgorithm
+train	stable_baselines3/common/on_policy_algorithm.py	/^    def train(self) -> None:$/;"	m	class:OnPolicyAlgorithm
+train	stable_baselines3/dqn/dqn.py	/^    def train(self, gradient_steps: int, batch_size: int = 100) -> None:$/;"	m	class:DQN
+train	stable_baselines3/ppo/ppo.py	/^    def train(self) -> None:$/;"	m	class:PPO
+train	stable_baselines3/sac/sac.py	/^    def train(self, gradient_steps: int, batch_size: int = 64) -> None:$/;"	m	class:SAC
+train	stable_baselines3/td3/td3.py	/^    def train(self, gradient_steps: int, batch_size: int = 100) -> None:$/;"	m	class:TD3
+transpose_image	stable_baselines3/common/vec_env/vec_transpose.py	/^    def transpose_image(image: np.ndarray) -> np.ndarray:$/;"	m	class:VecTransposeImage
+transpose_space	stable_baselines3/common/vec_env/vec_transpose.py	/^    def transpose_space(observation_space: spaces.Box) -> spaces.Box:$/;"	m	class:VecTransposeImage
+ts2xy	stable_baselines3/common/results_plotter.py	/^def ts2xy(data_frame: pd.DataFrame, x_axis: str) -> Tuple[np.ndarray, np.ndarray]:$/;"	f
+unnormalize_obs	stable_baselines3/common/vec_env/vec_normalize.py	/^    def unnormalize_obs(self, obs: Union[np.ndarray, Dict[str, np.ndarray]]) -> Union[np.ndarray, Dict[str, np.ndarray]]:$/;"	m	class:VecNormalize
+unnormalize_reward	stable_baselines3/common/vec_env/vec_normalize.py	/^    def unnormalize_reward(self, reward: np.ndarray) -> np.ndarray:$/;"	m	class:VecNormalize
+unscale_action	stable_baselines3/common/policies.py	/^    def unscale_action(self, scaled_action: np.ndarray) -> np.ndarray:$/;"	m	class:BasePolicy
+unwrap_vec_normalize	stable_baselines3/common/vec_env/__init__.py	/^def unwrap_vec_normalize(env: Union["GymEnv", VecEnv]) -> Optional[VecNormalize]:$/;"	f
+unwrap_vec_wrapper	stable_baselines3/common/vec_env/__init__.py	/^def unwrap_vec_wrapper(env: Union["GymEnv", VecEnv], vec_wrapper_class: Type[VecEnvWrapper]) -> Optional[VecEnvWrapper]:$/;"	f
+unwrapped	stable_baselines3/common/vec_env/base_vec_env.py	/^    def unwrapped(self) -> "VecEnv":$/;"	m	class:VecEnv
+update	stable_baselines3/common/running_mean_std.py	/^    def update(self, arr: np.ndarray) -> None:$/;"	m	class:RunningMeanStd
+update_child_locals	stable_baselines3/common/callbacks.py	/^    def update_child_locals(self, locals_: Dict[str, Any]) -> None:$/;"	m	class:BaseCallback
+update_child_locals	stable_baselines3/common/callbacks.py	/^    def update_child_locals(self, locals_: Dict[str, Any]) -> None:$/;"	m	class:CallbackList
+update_child_locals	stable_baselines3/common/callbacks.py	/^    def update_child_locals(self, locals_: Dict[str, Any]) -> None:$/;"	m	class:EvalCallback
+update_child_locals	stable_baselines3/common/callbacks.py	/^    def update_child_locals(self, locals_: Dict[str, Any]) -> None:$/;"	m	class:EventCallback
+update_from_moments	stable_baselines3/common/running_mean_std.py	/^    def update_from_moments(self, batch_mean: np.ndarray, batch_var: np.ndarray, batch_count: int) -> None:$/;"	m	class:RunningMeanStd
+update_learning_rate	stable_baselines3/common/utils.py	/^def update_learning_rate(optimizer: th.optim.Optimizer, learning_rate: float) -> None:$/;"	f
+update_locals	stable_baselines3/common/callbacks.py	/^    def update_locals(self, locals_: Dict[str, Any]) -> None:$/;"	m	class:BaseCallback
+url	setup.py	/^    url="https:\/\/github.com\/DLR-RM\/stable-baselines3",$/;"	v
+version	docs/conf.py	/^version = "master (" + __version__ + " )"$/;"	v
+version	setup.py	/^    version=__version__,$/;"	v
+version_file	docs/conf.py	/^version_file = os.path.join(os.path.dirname(__file__), "..\/stable_baselines3", "version.txt")$/;"	v
+version_file	stable_baselines3/__init__.py	/^version_file = os.path.join(os.path.dirname(__file__), "version.txt")$/;"	v
+warn	stable_baselines3/common/logger.py	/^def warn(*args) -> None:$/;"	f
+window_func	stable_baselines3/common/results_plotter.py	/^def window_func(var_1: np.ndarray, var_2: np.ndarray, window: int, func: Callable) -> Tuple[np.ndarray, np.ndarray]:$/;"	f
+write	stable_baselines3/common/logger.py	/^    def write(self, key_values: Dict, key_excluded: Dict, step: int = 0) -> None:$/;"	m	class:HumanOutputFormat
+write	stable_baselines3/common/logger.py	/^    def write(self, key_values: Dict[str, Any], key_excluded: Dict[str, Union[str, Tuple[str, ...]]], step: int = 0) -> None:$/;"	m	class:CSVOutputFormat
+write	stable_baselines3/common/logger.py	/^    def write(self, key_values: Dict[str, Any], key_excluded: Dict[str, Union[str, Tuple[str, ...]]], step: int = 0) -> None:$/;"	m	class:JSONOutputFormat
+write	stable_baselines3/common/logger.py	/^    def write(self, key_values: Dict[str, Any], key_excluded: Dict[str, Union[str, Tuple[str, ...]]], step: int = 0) -> None:$/;"	m	class:KVWriter
+write	stable_baselines3/common/logger.py	/^    def write(self, key_values: Dict[str, Any], key_excluded: Dict[str, Union[str, Tuple[str, ...]]], step: int = 0) -> None:$/;"	m	class:TensorBoardOutputFormat
+write_sequence	stable_baselines3/common/logger.py	/^    def write_sequence(self, sequence: List) -> None:$/;"	m	class:HumanOutputFormat
+write_sequence	stable_baselines3/common/logger.py	/^    def write_sequence(self, sequence: List) -> None:$/;"	m	class:SeqWriter
+wrong_reset	tests/test_envs.py	/^    def wrong_reset():$/;"	f	function:check_reset_assert_error
+wrong_step	tests/test_envs.py	/^    def wrong_step(_action):$/;"	f	function:check_step_assert_error
+zip_strict	stable_baselines3/common/utils.py	/^def zip_strict(*iterables: Iterable) -> Iterable:$/;"	f
