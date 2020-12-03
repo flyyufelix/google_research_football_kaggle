@@ -1,0 +1,60 @@
+core:
+    use_gpu: True
+    gpu_id: 0
+    seed: 388
+    torch_deterministic: True
+    torch_benchmark: True
+env:
+    env_name: 11_vs_11_hard_stochastic
+    obs_representation: stacked_smm # Spatial Minimap with stacked frame
+    #rewards: scoring,checkpoints
+    rewards: scoring
+    total_timesteps: 10000000000
+    num_envs: 8 # Number of parallel envs
+    parallel_env: True
+    use_kaggle_wrapper: True
+    adversarial_agent_path: ${store.workdir}/adversarial_agents
+    adversarial_agent: memory_patterns.py
+store:
+    workdir: /usr/src/app/kaggle_environments # Docker env path
+    model_name: ${model.model_name}
+    save_path: ${store.workdir}/output/${store.model_name}/${log.exp_name}
+    model_path: ${store.workdir}/output/${store.model_name}/${log.exp_name}/model
+    log_path: ${store.workdir}/output/${store.model_name}/${log.exp_name}/logs
+    result_path: ${store.workdir}/output/${store.model_name}/${log.exp_name}/result
+log:
+    use_wandb: True
+    exp_name: exp1
+    save_model_freq: 30
+    rolling_window: 100
+model:
+    model_name: impala_cnn
+    load_pretrained: False
+    pretrained_model_path: ${store.workdir}/pretrained
+    pretrained_model: pretrained_model
+    num_actions: 19
+    mlp_input: 115
+train:
+    learning_rate: 0.000016 # Learning rate of the optimizer
+    batch_size: 1024 # Minibatch Size
+    num_steps: 512 # Number of steps for each rollout
+    gamma: 0.993 # Discount Factor for computing value
+    gae_lambda: 0.95
+    ent_coef: 0.001
+    vf_coef: 0.5
+    max_grad_norm: 0.64 # Maximum norm for gradient clipping
+    clip_coef: 0.08 # Surrogate clipping coefficient
+    clip_range: 0.1
+    update_epochs: 3
+    kle_stop: False # If set to true, the policy updates will be early stopped w.r.t target_kl
+    kle_rollback: False # If set to true, the policy updates will roll back to previous policy if KL exceeds target_kl
+    target_kl: 0.03
+    gae: True
+    norm_adv: True # Normalize advantages
+    anneal_lr: False
+    clip_vloss: True # Whether to use clipped loss for the value function
+    use_prierarchy_loss: False # https://blog.aqnichol.com/2019/04/03/prierarchy-implicit-hierarchies/
+    prior_reg: 0.1 # kl term for prierachy
+hydra:
+    run:
+        dir: ${store.save_path}

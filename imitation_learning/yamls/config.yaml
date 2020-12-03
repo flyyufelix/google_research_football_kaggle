@@ -1,0 +1,49 @@
+core:
+    gpu_id: 0
+    num_cores: 4
+model:
+    model_name: impala_cnn
+    num_actions: 19
+    mlp_input: 115
+data:
+    workdir: ${store.workdir}/input/episodes_data
+    dataset_name: spatial_smm
+    seed: 388
+    is_train: True
+    stack_frames: 4
+    use_only_left_team: True
+    filter_by_score: False
+    score_threshold: 1400
+    filter_by_team: False
+    team_name: WeKick
+store:
+    #workdir: /home/flyyufelix/Documents/machine_learning/competitions/kaggle/google_football/imitation_learning
+    workdir: /usr/src/app/kaggle_environments
+    model_name: ${model.model_name}
+    save_path: ${store.workdir}/output/${store.model_name}/${log.exp_name}
+    model_path: ${store.workdir}/output/${store.model_name}/${log.exp_name}/model
+    log_path: ${store.workdir}/output/${store.model_name}/${log.exp_name}/logs
+    result_path: ${store.workdir}/output/${store.model_name}/${log.exp_name}/result
+    gcs_path: 
+    save_feature: 
+    wandb_project: 
+    gcs_project: 
+    bucket_name: 
+log:
+    use_wandb: True
+    exp_name: exp1
+train:
+    seed: ${data.seed}
+    num_epochs: 300
+    batch_size: 32
+    accumulation_steps: 1
+    learning_rate: 0.00001
+    warm_start: False
+    num_folds: 5
+test:
+    is_tta: False
+    is_validation: False
+    batch_size: 16
+hydra:
+    run:
+        dir: ${store.save_path}
